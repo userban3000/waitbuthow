@@ -1,0 +1,63 @@
+{
+	x: -5.0d,
+	y: -1.0d,
+	text: [
+		"Stockpile these, you'll need them later.",
+		"",
+		"Initially, these characteristics will be hidden, but for the sake of explanation, here's what all of them mean:",
+		"",
+		"&1&lSize: &rRelates to the tool/weapon's durability (if crafted into one).",
+		"&1&lPurity: &rPower of Starlight collection and resistance to size loss when grinding.",
+		"&1&lCutting: &rDamage or tool speed.",
+		"",
+		"After you obtain Liquid Starlight, you can throw Crystals into it to increase their size (up to 400)."
+	],
+	dependencies: [
+		"b7168a55"
+	],
+	tasks: [{
+		uid: "5c4a5c0f",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "astralsorcery:itemrockcrystalsimple",
+			tag: {
+				astralsorcery: {
+					crystalProperties: {
+						collectiveCapability: 100,
+						size: 400,
+						fract: 0,
+						purity: 100,
+						sizeOverride: -1
+					}
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "130d26f1",
+		type: "item",
+		title: "A Perfect Crystal",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "astralsorcery:itemrockcrystalsimple",
+			tag: {
+				astralsorcery: {
+					crystalProperties: {
+						collectiveCapability: 100,
+						size: 400,
+						fract: 0,
+						purity: 100,
+						sizeOverride: -1
+					}
+				}
+			}
+		}
+	}]
+}

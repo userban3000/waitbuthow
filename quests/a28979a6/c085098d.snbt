@@ -1,0 +1,26 @@
+{
+	title: "&4Bound &fBlade",
+	x: 23.5d,
+	y: 6.0d,
+	text: [
+		"The Bound Sword uses &4LP&f whenever you damage a mob, but mobs killed by this sword have a chance of dropping a Weak Blood Shard, which will be used a lot more in &4Tier IV&f."
+	],
+	dependencies: [
+		"7edc16d0"
+	],
+	tasks: [{
+		uid: "dd530299",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "bloodmagic:bound_sword",
+			tag: {
+				Unbreakable: 1b
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

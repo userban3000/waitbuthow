@@ -1,0 +1,28 @@
+{
+	x: -22.0d,
+	y: 2.0d,
+	text: [
+		"The Observatory enables you to find four new Constellations. These are Faint Constellations and can only be found with the Observatory because they are further away.",
+		"",
+		"Besides being able to see Faint Constellations, it's functionally the same as the looking glass.",
+		"",
+		"The four Faint Constellations act as modifiers to already Attuned Crystals (meaning you can't attune yourself or other items).",
+		"",
+		"Here are the Faint effects:",
+		"",
+		"&1&lGelu &rincreases the Range and lowers the Potency",
+		"&1&lUlteria &ramplifies the effect but decreases the Size",
+		"&1&lVorux &rdoubles the Size and Efficacy, but increases fracture rate",
+		"&1&lAlcara &rdoubles the Size and Effect, but increases fracture rate and corrupts the ritual"
+	],
+	dependencies: [
+		"7a98f9ba"
+	],
+	tasks: [{
+		uid: "31376da8",
+		type: "item",
+		items: [{
+			item: "astralsorcery:blockobservatory"
+		}]
+	}]
+}

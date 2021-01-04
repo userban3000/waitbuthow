@@ -1,0 +1,33 @@
+{
+	x: -9.0d,
+	y: 2.0d,
+	text: [
+		"Put these around Crystals found in shrines and link them using the Linking Tool.",
+		"",
+		"The crafting Crystal's Purity affects how efficient the Lens is.",
+		"",
+		"Point the Lens at any Altar to channel Starlight into it!"
+	],
+	dependencies: [
+		"5dd68aa0"
+	],
+	tasks: [{
+		uid: "75a822ef",
+		type: "item",
+		items: [{
+			id: "astralsorcery:blocklens",
+			tag: {
+				astralsorcery: {
+					crystalProperties: {
+						collectiveCapability: 100,
+						size: 900,
+						fract: 0,
+						purity: 100,
+						sizeOverride: -1
+					}
+				}
+			}
+		}],
+		ignore_nbt: 1b
+	}]
+}

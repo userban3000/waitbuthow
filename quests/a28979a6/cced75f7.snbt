@@ -1,0 +1,65 @@
+{
+	title: "Types of Demonic Will",
+	x: 30.0d,
+	y: 4.0d,
+	text: [
+		"The only way to create these crystals is via the Resonance of the Faceted Crystal ritual, once built you will need to activate the ritual and then put a Demon Crystallizer on top of the ritual stone. ",
+		"",
+		"The Aura needs to be filled with Will, which will slowly make the Crystallizer grow a normal demonic Will crystal.",
+		"",
+		"Once the crystal has grown 5 or more spires, the ritual will break off a crystal and place a new type of crystal on the floor on top of one of the 4 aspect stones around the Crystalizer. ",
+		"",
+		"Crystal Clusters grow slow, so look into a Gathering of the Forsaken Souls ritual. Then, Crack of the Fractured Crystal does wonders for automation."
+	],
+	dependencies: [
+		"4514ccd9"
+	],
+	tasks: [{
+		uid: "cb40b9ae",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "bloodmagic:monster_soul",
+			Damage: 1s
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "ad4e4afd",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "bloodmagic:monster_soul",
+			Damage: 2s
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "b36b0553",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "bloodmagic:monster_soul",
+			Damage: 3s
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "2c0beee3",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "bloodmagic:monster_soul",
+			Damage: 4s
+		}],
+		ignore_nbt: 1b
+	}]
+}

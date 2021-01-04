@@ -1,0 +1,54 @@
+{
+	title: "&dEnsnare",
+	x: 2.0d,
+	y: 0.0d,
+	text: [
+		"To get started, you'll need Demonic Wills. For now, the only way to obtain these is to snare a hostile mob and kill it when white particle effects appear.",
+		"",
+		"Right click the snare to throw it at a mob. The white particles might need more than one snare to appear.",
+		"",
+		"Once the particles appear, kill the mob and it will drop Demonic Will.",
+		"",
+		"&7&oStronger mobs will drop Wills that have a higher quality, so go hunt those Endermen."
+	],
+	dependencies: [
+		"ad6cd918"
+	],
+	hide: true,
+	tasks: [{
+		uid: "329bf383",
+		type: "item",
+		items: [{
+			item: "bloodmagic:soul_snare"
+		}]
+	},
+	{
+		uid: "004b61b4",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "bloodmagic:monster_soul",
+			tag: {
+				souls: 2.341662666514214d
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "2f7bad0c",
+		type: "item",
+		title: "&oA very high quality Will",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "bloodmagic:monster_soul",
+			tag: {
+				souls: 8
+			}
+		}
+	}]
+}

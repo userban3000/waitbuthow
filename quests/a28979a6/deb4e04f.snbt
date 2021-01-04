@@ -1,0 +1,27 @@
+{
+	x: 8.0d,
+	y: -4.0d,
+	text: [
+		"Holds 4096 Demonic Will."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"bf4ddf1f",
+		"0dc9142e",
+		"6968416b"
+	],
+	hide: true,
+	tasks: [{
+		uid: "06dcf234",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "bloodmagic:soul_gem",
+			tag: {},
+			Damage: 3s
+		}],
+		ignore_nbt: 1b
+	}]
+}

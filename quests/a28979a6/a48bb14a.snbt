@@ -1,0 +1,21 @@
+{
+	x: 25.5d,
+	y: 4.5d,
+	text: [
+		"This stone is the base of ALL rituals without it you will not even be able to build a Ritual. This stone is the centrepiece of each ritual, it’s what you use to turn on, turn off, and to activate the ritual.",
+		"",
+		"Redstone will turn off the Ritual. This does not mean you will need to spend the LP to reactivate the ritual. Once the Ritual is activated it can be turned on and off at will. Only deconstructing the ritual and rebuilding will require reactivation.",
+		"",
+		"A full list of Rituals is available in the Guide."
+	],
+	dependencies: [
+		"1148f483"
+	],
+	tasks: [{
+		uid: "42198312",
+		type: "item",
+		items: [{
+			item: "bloodmagic:ritual_controller"
+		}]
+	}]
+}

@@ -1,0 +1,27 @@
+{
+	title: "Capacity and Displacement Runes",
+	x: 22.5d,
+	y: 0.5d,
+	text: [
+		"Runes of Capacity increase your Blood Altar's &4LP&f capacity by &42,000 LP&f each. As the &4Tier III&f Altar does not increase its storage from &410,000 LP&f and Imbued Slates need &45000 LP&f each, it might be a good idea to make a few of these.",
+		"",
+		"The Rune of Displacement increases &4LP&f transfer rate from &420&f per second by 1.2x each, additively. This makes filling Orbs a little faster."
+	],
+	dependencies: [
+		"e06421be"
+	],
+	tasks: [{
+		uid: "9a7d4363",
+		type: "item",
+		items: [{
+			item: "bloodmagic:blood_rune 1 6"
+		}]
+	},
+	{
+		uid: "24801a02",
+		type: "item",
+		items: [{
+			item: "bloodmagic:blood_rune 1 5"
+		}]
+	}]
+}

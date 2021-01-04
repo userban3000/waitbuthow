@@ -1,0 +1,29 @@
+{
+	title: "&bArchmage Blood Orb",
+	x: 40.0d,
+	y: 2.0d,
+	shape: "hexagon",
+	text: [
+		"The Archmage Blood Orb will expand your personal &4LP&f network to a whopping 10,000,000, before any Rune upgrades.",
+		"",
+		"&7&oEnough to fill a bloody stream."
+	],
+	dependencies: [
+		"a120dc36"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "8f8706e2",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "bloodmagic:blood_orb",
+			tag: {
+				orb: "bloodmagic:archmage"
+			}
+		}],
+		ignore_nbt: 1b
+	}]
+}

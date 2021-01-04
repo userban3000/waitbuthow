@@ -1,0 +1,22 @@
+{
+	title: "&bCharging Rune",
+	x: 30.0d,
+	y: 0.0d,
+	text: [
+		"The Charging Rune essentially supercharges the Altar and makes it far more convenient to use.",
+		"",
+		"It syphons &4LP&f slowly and starts storing &4Charge&f, which you can see with the Seer's Sigil. Charge is then used to craft instantaneously, at a 1:1 Charge:&4LP&f.",
+		"",
+		"Check the Guide for a detailed explanation of &4Charge&f."
+	],
+	dependencies: [
+		"4514ccd9"
+	],
+	tasks: [{
+		uid: "93070aa0",
+		type: "item",
+		items: [{
+			item: "bloodmagic:blood_rune 1 10"
+		}]
+	}]
+}

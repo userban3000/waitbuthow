@@ -1,0 +1,25 @@
+{
+	x: 10.0d,
+	y: 1.0d,
+	text: [
+		"The Incense Altar can be used to boost the power of the Sacrificial Dagger.",
+		"",
+		"Give it a 3x3 base of whatever material you want. If you look at it with a Divination Sigil, it will show Current Tranquility 0 and Current Bonus +20%.",
+		"",
+		"Tranquility will be increasable from &4Tier II&f onwards.",
+		"",
+		"If the Incense Altar is active, your dagger will have an enchanted glow to it. Be careful, as it will take up 90% of your health on use and give an additional 20% &4LP&f per heart.",
+		"",
+		"You'll also be given the Soul Fray debuff, which prevents you from using this supercharged self-sacrifice again for 20 seconds."
+	],
+	dependencies: [
+		"fb1a52c5"
+	],
+	tasks: [{
+		uid: "f6aae698",
+		type: "item",
+		items: [{
+			item: "bloodmagic:incense_altar"
+		}]
+	}]
+}

@@ -1,0 +1,22 @@
+{
+	x: 21.5d,
+	y: 1.0d,
+	text: [
+		"Quite straightforward. Disassembles Rituals."
+	],
+	dependencies: [
+		"e06421be"
+	],
+	tasks: [{
+		uid: "60f9d42c",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "bloodmagic:ritual_dismantler"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

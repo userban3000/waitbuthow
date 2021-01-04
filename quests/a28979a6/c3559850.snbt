@@ -1,0 +1,24 @@
+{
+	x: 10.0d,
+	y: 3.0d,
+	text: [
+		"Used in making sigils and certain crafting recipes.",
+		"",
+		"A list of Sigil effects and recipes is available in the Guide."
+	],
+	dependencies: [
+		"fb1a52c5"
+	],
+	tasks: [{
+		uid: "7829ea43",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "bloodmagic:arcane_ashes"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,40 @@
+{
+	title: "&1Starlight &fCrafting Altar",
+	x: -11.0d,
+	y: 0.0d,
+	text: [
+		"The Starlight Crafting Altar is a more powerful version of the Luminous Crafting Table.",
+		"",
+		"Crafting will require quite a bit of Starlight so time your so make sure you do the upgrade at midnight.",
+		"",
+		"Once it's done, you'll notice it no longer works. That's because it requires a special structure around it. You can find it in your Tome or by using a Sextant."
+	],
+	dependencies: [
+		"a505cfe7"
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "d0a3c5f1",
+		type: "observation",
+		title: "&1Starlight &fCrafting Altar",
+		icon: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "astralsorcery:blockaltar",
+			Damage: 1s
+		},
+		match_type: "block_id",
+		match: "astralsorcery:blockaltar",
+		properties: {
+			altartype: "altar_2"
+		},
+		timer: 0L
+	}],
+	rewards: [{
+		uid: "1085724b",
+		type: "item",
+		item: "astralsorcery:blockattunementrelay",
+		count: 4
+	}]
+}

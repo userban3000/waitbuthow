@@ -1,0 +1,28 @@
+{
+	x: 18.0d,
+	y: 2.0d,
+	text: [
+		"This Blood Orb will hold &425,000 LP&f and has a filling speed of &4100 LP&f. You will need to bind this orb to yourself just like the previous tier.",
+		"",
+		"If you don't have enough &4LP&f, the Orb will not craft and all your &4LP&f will be lost.",
+		"",
+		"This blood orb can hold up to &4150,000 LP&f and also enables you to craft a few new items. Remember to bind this orb to yourself by right-clicking it."
+	],
+	dependencies: [
+		"b2cce9a5"
+	],
+	tasks: [{
+		uid: "05d73692",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "bloodmagic:blood_orb",
+			tag: {
+				orb: "bloodmagic:apprentice"
+			}
+		}],
+		ignore_nbt: 1b
+	}]
+}

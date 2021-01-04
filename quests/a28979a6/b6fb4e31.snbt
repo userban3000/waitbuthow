@@ -1,0 +1,30 @@
+{
+	x: -2.0d,
+	y: -2.0d,
+	text: [
+		"The Astral Tome contains everything you need to know about Astral Sorcery.",
+		"",
+		"&7&oIt's full of stars!"
+	],
+	dependencies: [
+		"61b85f77"
+	],
+	tasks: [{
+		uid: "ccc23c50",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "astralsorcery:itemjournal"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "dafad0a8",
+		type: "random",
+		title: "Random Constellation Paper",
+		table: 10
+	}]
+}

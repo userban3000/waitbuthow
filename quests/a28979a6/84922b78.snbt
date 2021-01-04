@@ -1,0 +1,31 @@
+{
+	x: 29.0d,
+	y: 3.5d,
+	text: [
+		"Place 2 Teleposers, bind them with a Teleposition Focus (right click the first, then the second, then right click the first with an empty hand and place the Focus in).",
+		"",
+		"With the Teleposition focus you will only be able to teleport 1 block above the Teleposer, this can be upgraded to a 3x3, with the Enhanced Teleposition focus and 5x5 with the Reinforced Teleposition focus."
+	],
+	dependencies: [
+		"4514ccd9"
+	],
+	tasks: [{
+		uid: "ab708c1e",
+		type: "item",
+		items: [{
+			item: "bloodmagic:teleposer"
+		}],
+		count: 2L
+	},
+	{
+		uid: "c937c6e6",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "bloodmagic:teleposition_focus"
+		}],
+		ignore_nbt: 1b
+	}]
+}

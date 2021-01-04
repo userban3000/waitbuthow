@@ -1,0 +1,32 @@
+{
+	x: -7.0d,
+	y: 0.0d,
+	text: [
+		"Time to collect Liquid Starlight!",
+		"",
+		"Put the Lightwell under the open sky and place in a Starlight generating item.",
+		"",
+		"The only items you have access too right now are Aquamarine and Rock Crystals.",
+		"",
+		"Don't forget that the Lightwell only works at night and that it can only hold two buckets (2,000mB) of Starlight, so find a place to store it.",
+		"",
+		"As a sidenote, crystal purity doesn't matter, so you're better off keeping high purity crystals for later."
+	],
+	dependencies: [
+		"6440d5a5",
+		"462d3a2f"
+	],
+	tasks: [{
+		uid: "64cc1aaf",
+		type: "item",
+		items: [{
+			item: "astralsorcery:blockwell"
+		}]
+	}],
+	rewards: [{
+		uid: "1cffe77b",
+		type: "item",
+		item: "astralsorcery:itemcraftingcomponent",
+		count: 16
+	}]
+}

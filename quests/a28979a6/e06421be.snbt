@@ -1,0 +1,39 @@
+{
+	title: "&4Tier III &fBlood Altar",
+	icon: "bloodmagic:altar",
+	x: 22.5d,
+	y: 2.0d,
+	text: [
+		"You'll need 20 Runes and 4 Blocks of Glowstone or 4 Sea Lanterns for &4Tier III&f.",
+		"",
+		"&4Tier III&f has a lot of fun stuff to play around with, including Rituals!",
+		"",
+		"The Guide contains a complete build guide.",
+		"",
+		"Unlocks &5Stone Brick Paths&f and the &5Common Tartaric Gem&f."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"c67d3cb7"
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "1a2e4acd",
+		type: "item",
+		items: [{
+			item: "bloodmagic:blood_rune"
+		}],
+		count: 20L
+	},
+	{
+		uid: "daab92f1",
+		type: "item",
+		items: [{
+			item: "minecraft:glowstone"
+		},
+		{
+			item: "minecraft:sea_lantern"
+		}],
+		count: 4L
+	}]
+}

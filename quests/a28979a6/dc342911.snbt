@@ -1,0 +1,36 @@
+{
+	title: "Coat of Arms & Blood Letter's Pack",
+	x: 6.0d,
+	y: 0.5d,
+	text: [
+		"The Coat of Arms and Blood Letter's Pack are passive ways of generating LP.",
+		"",
+		"The Coat of Arms passively generates &4LP&f during combat.",
+		"",
+		"The Blood Letter's Pack will slowly bring you down to half of your full health, which wil be converted into &4LP&f.",
+		"",
+		"Both of these will store &4LP&f in them. To transfer them into the Altar, shift right click it with one of these in hand."
+	],
+	dependencies: [
+		"5b8aff6c"
+	],
+	tasks: [{
+		uid: "963993a0",
+		type: "item",
+		title: "Coat of Arms or Blood Letter's Pack",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "bloodmagic:pack_sacrifice"
+		},
+		{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "bloodmagic:pack_self_sacrifice"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

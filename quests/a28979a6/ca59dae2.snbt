@@ -1,0 +1,22 @@
+{
+	x: 31.0d,
+	y: 3.5d,
+	text: [
+		"The [Dusk] Ritual Diviner works the same as the old one, except it allows you to craft Greater Rituals, besides Basic ones."
+	],
+	dependencies: [
+		"4514ccd9"
+	],
+	tasks: [{
+		uid: "1360e825",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "bloodmagic:ritual_diviner",
+			Damage: 1s
+		}],
+		ignore_nbt: 1b
+	}]
+}

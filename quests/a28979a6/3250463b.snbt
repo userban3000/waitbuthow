@@ -1,0 +1,18 @@
+{
+	x: 10.0d,
+	y: 0.0d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"c67d3cb7",
+		"c6dfea65"
+	],
+	hide: true,
+	tasks: [{
+		uid: "1f049c33",
+		type: "item",
+		items: [{
+			item: "bloodmagic:path"
+		}],
+		count: 36L
+	}]
+}

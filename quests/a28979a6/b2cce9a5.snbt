@@ -1,0 +1,27 @@
+{
+	title: "&4Tier II &fBlood Altar",
+	icon: "bloodmagic:altar",
+	x: 16.5d,
+	y: 2.0d,
+	text: [
+		"The &4Tier II&f Blood Altar needs 8 Runes in a 3x3 below it, with the middle missing.",
+		"",
+		"Don't go overboard with Speed Runes, as over-speeding your altar can result in running out of blood rather quickly.",
+		"",
+		"The &4Tier II&f Blood Altar can hold &410,000 LP&f.",
+		"",
+		"Unlocks &5Wooden Paths&f."
+	],
+	dependencies: [
+		"a9695f86"
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "7ea44dac",
+		type: "item",
+		items: [{
+			item: "bloodmagic:blood_rune"
+		}],
+		count: 8L
+	}]
+}

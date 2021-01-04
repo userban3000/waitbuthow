@@ -1,0 +1,22 @@
+{
+	x: -12.0d,
+	y: -2.0d,
+	text: [
+		"Used to replace blocks with other blocks, or a palette of other blocks."
+	],
+	dependencies: [
+		"695979e2"
+	],
+	tasks: [{
+		uid: "f3ec61d1",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "astralsorcery:itemexchangewand"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

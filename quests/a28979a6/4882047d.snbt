@@ -1,0 +1,25 @@
+{
+	x: 23.5d,
+	y: 3.5d,
+	text: [
+		"Before jumping into Rituals you should make a Ritual Diviner. This tool helps you build Rituals and takes out all the guesswork.",
+		"",
+		"Hold it in your hand, look at a Master Ritual Stone and shift right click to scroll through Rituals.",
+		"",
+		"As long as you have normal ritual stones in your inventory you should be able to hold right-click the Diviner will automatically place the correct ritual stones in the correct locations."
+	],
+	dependencies: [
+		"e06421be"
+	],
+	tasks: [{
+		uid: "c04602e9",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "bloodmagic:ritual_diviner"
+		}],
+		ignore_nbt: 1b
+	}]
+}

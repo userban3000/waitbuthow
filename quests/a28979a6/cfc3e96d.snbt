@@ -1,0 +1,33 @@
+{
+	title: "&1Celestial &fAltar",
+	x: -15.5d,
+	y: 0.0d,
+	text: [
+		"Just like the previous upgrade, the Starlight Crafting Altar will be replaced and the new Celestial Altar will not work unless you set up the new structure.",
+		"",
+		"And again, check your Tome and Sextant."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"695979e2"
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "ed6dc56b",
+		type: "observation",
+		title: "&1Celestial &fAltar",
+		icon: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "astralsorcery:blockaltar",
+			Damage: 2s
+		},
+		match_type: "block_id",
+		match: "astralsorcery:blockaltar",
+		properties: {
+			altartype: "altar_3"
+		},
+		timer: 0L
+	}]
+}

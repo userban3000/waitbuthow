@@ -1,0 +1,30 @@
+{
+	x: -5.5d,
+	y: 3.0d,
+	text: [
+		"The Fosic Resonator helps you find patches of concentrated Starlight.",
+		"",
+		"Walk around with it in your hand and you'll find patches of either bluish mist, or starry patches of heavy blue mist. The former implies a medium concentration of Starlight, while the later implies a much higher concentration.",
+		"",
+		"You don't &oneed &rto build here, but it helps in the beginning."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"a505cfe7",
+		"462d3a2f"
+	],
+	tasks: [{
+		uid: "e98134d6",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "astralsorcery:itemskyresonator",
+			tag: {
+				astralsorcery: {}
+			}
+		}],
+		ignore_damage: true
+	}]
+}

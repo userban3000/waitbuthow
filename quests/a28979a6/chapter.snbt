@@ -1,0 +1,7 @@
+{
+	title: "&6Forged in Light, Hardened in Blood",
+	icon: "astralsorcery:itemcraftingcomponent 1 1",
+	always_invisible: false,
+	group: 914083230,
+	default_quest_shape: ""
+}

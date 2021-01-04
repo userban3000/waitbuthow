@@ -1,0 +1,29 @@
+{
+	title: "Acceleration and Augmented Capacity Runes",
+	x: 29.0d,
+	y: 0.5d,
+	text: [
+		"Acceleration Runes increase the number of processing ticks the Displacement and Charging Runes. Each Acceleration Rune reduces the number of ticks needed by one.",
+		"",
+		"For instance, the Displacement Rune displaces liquids at a rate of one operation per 20 ticks. With 5 Acceleration Runes, that becomes each 15 ticks. Needless to say, 19 is the most you'll ever use.",
+		"",
+		"The Runes of Augmented Capacity work similar to the Rune of Capacity, except they work exponentially. The first will add 10%, then 21%, then 33.1% and so on."
+	],
+	dependencies: [
+		"4514ccd9"
+	],
+	tasks: [{
+		uid: "da77c1fe",
+		type: "item",
+		items: [{
+			item: "bloodmagic:blood_rune 1 9"
+		}]
+	},
+	{
+		uid: "b0ebcac1",
+		type: "item",
+		items: [{
+			item: "bloodmagic:blood_rune 1 7"
+		}]
+	}]
+}

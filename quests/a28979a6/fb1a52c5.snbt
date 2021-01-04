@@ -1,0 +1,28 @@
+{
+	x: 8.0d,
+	y: 2.0d,
+	text: [
+		"Any &4LP&f you generate will go straight into the Altar, which is useeful for crafting inside the Altar, but that's quite limiting.",
+		"",
+		"After you craft the Blood Orb, right click with it in hand to bind it to you. Unbound Blood Orbs will not collect &4LP&f.",
+		"",
+		"The Orb is never used up or loses durability while crafting."
+	],
+	dependencies: [
+		"214ec825"
+	],
+	tasks: [{
+		uid: "b15515d4",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "bloodmagic:blood_orb",
+			tag: {
+				orb: "bloodmagic:weak"
+			}
+		}],
+		ignore_nbt: 1b
+	}]
+}

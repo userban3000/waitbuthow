@@ -1,0 +1,26 @@
+{
+	title: "&1Attunement &fAltar",
+	x: -15.5d,
+	y: 2.0d,
+	text: [
+		"The Attunement Altar allows you to attune yourself (or items) to specific constellations.",
+		"",
+		"If the Altar and corresponding structure are built correctly &7&o(Tome & Sextant, kids)&r, the floor will sparkle. You're also gonna need a couple of Spectral Relays and a Constellation Paper of the constellation you want to attune to.",
+		"",
+		"Put the Constellation Paper in the Attunement Altar, blue swirls will appear on the ground. Put the Spectral Relays exactly where those swirls appear.",
+		"",
+		"If the constellation is discovered and in the sky, the relays will light up and connect.",
+		"",
+		"Step in and enjoy the show."
+	],
+	dependencies: [
+		"cfc3e96d"
+	],
+	tasks: [{
+		uid: "96d0d779",
+		type: "item",
+		items: [{
+			item: "astralsorcery:blockattunementaltar"
+		}]
+	}]
+}

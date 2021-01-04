@@ -1,0 +1,19 @@
+{
+	x: 20.0d,
+	y: 5.0d,
+	text: [
+		"The Demon Pylon pulls Aura towards it, from the 4 cardinal chunks (not diagonally). ",
+		"",
+		"The Pylon will attempt to equalize Aura, so it will make sure the chunk it's in is equal to the ones surrounding it."
+	],
+	dependencies: [
+		"ef85856a"
+	],
+	tasks: [{
+		uid: "846ee36e",
+		type: "item",
+		items: [{
+			item: "bloodmagic:demon_pylon"
+		}]
+	}]
+}

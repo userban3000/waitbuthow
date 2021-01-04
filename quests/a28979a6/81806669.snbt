@@ -1,0 +1,22 @@
+{
+	title: "&aTree &fBeacon",
+	x: -18.0d,
+	y: 2.0d,
+	text: [
+		"The Tree Beacon is a great tool for when you need extra wood but don't have much space. Place the Tree Beacon into the world and plant a sapling next to the Beacon. Encourage the tree to grow with bonemeal and you will notice the tree disappears.",
+		"",
+		"A ghostly shadow will stay in its place. Over time, this ghost will decay leaving behind Saplings and Wood. This can be further enhanced by Pedestals or Starlight.",
+		"",
+		"These ghost trees will soon disappear, meaning you will need to plant more saplings. Two or three saplings will yield over two double-chests full of logs, saplings and apples. "
+	],
+	dependencies: [
+		"8b00de84"
+	],
+	tasks: [{
+		uid: "964b8fc1",
+		type: "item",
+		items: [{
+			item: "astralsorcery:blocktreebeacon"
+		}]
+	}]
+}

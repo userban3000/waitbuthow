@@ -1,0 +1,22 @@
+{
+	x: 38.0d,
+	y: 3.5d,
+	text: [
+		"Allows for Advanced Rituals, mostly consisting of re-specing your Living Armor."
+	],
+	dependencies: [
+		"eb01bab9"
+	],
+	tasks: [{
+		uid: "9752d500",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "bloodmagic:activation_crystal",
+			Damage: 1s
+		}],
+		ignore_nbt: 1b
+	}]
+}

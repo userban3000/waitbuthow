@@ -1,0 +1,39 @@
+{
+	title: "&bMantle of Stars",
+	x: -26.0d,
+	y: 0.0d,
+	shape: "hexagon",
+	text: [
+		"The Mantle of the Stars requires any Crystal and a leather chestplate. The Mantle Will be blank by default.",
+		"",
+		"&cDo not enchant this yet.",
+		"",
+		"&fAttune the Mantle in an Iridescent Altar. The Tome contains the needed ingredients for every Constellation. It's advisable to attune the Mantle to the same Constellation you are attuned to.",
+		"",
+		"It's advisable to use a Celestial Attuned Crystal when attuning the Mantle. Additionally, the Mantle is &overy &renchantable, either in a Refraction Table or via vanilla methods.",
+		"",
+		"The Attuned Mantle benefits are listed in the Guide.",
+		"",
+		"&7&oWhen the stars shine upon you, you shine back, for you are but one and the same, separated only by space.",
+		"&7-Phedre, Starborn Prophet"
+	],
+	dependencies: [
+		"7a98f9ba"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "3ec887ab",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "astralsorcery:itemcape",
+			tag: {
+				astralsorcery: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

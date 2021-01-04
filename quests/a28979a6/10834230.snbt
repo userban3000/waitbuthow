@@ -1,0 +1,66 @@
+{
+	title: "&4Living &fArmor",
+	x: 22.5d,
+	y: 6.5d,
+	text: [
+		"Living Armor will upgrade itself and level up while you are wearing it depending on what you are doing.",
+		"",
+		"The upgrades you get for the armor are dependant on what you do. The armor has 100 Upgrade Points, which will get spent.",
+		"",
+		"After running, for example, you'll see you gained &bQuick Feet&f, which costs 3 points.",
+		"",
+		"For now, you are going to have to live with whatever random “Enchants” you get as changing these will require the next tier Blood Altar."
+	],
+	dependencies: [
+		"7edc16d0"
+	],
+	tasks: [{
+		uid: "d7cb3884",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "bloodmagic:living_armour_helmet"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "3c6f7afe",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "bloodmagic:living_armour_chest",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "8ec75800",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "bloodmagic:living_armour_leggings"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "3ef6fa84",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "bloodmagic:living_armour_boots"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,33 @@
+{
+	x: 18.0d,
+	y: 4.0d,
+	text: [
+		"The Alchemical Table can be used to make potions! Each potion still needs its ingredients but instead of putting them in one at a time (Nether Wart > Redstone>Glowstone) you can put them in all at once.",
+		"",
+		"The base of each potion will first need a Potion Flask, this will require at least &4100 LP&f in your network.",
+		"",
+		"This flask is the base of all potions and once a potion is brewed it will have 8 uses! Check JEI for all the recipes!"
+	],
+	dependencies: [
+		"c67d3cb7"
+	],
+	tasks: [{
+		uid: "fdee7034",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "bloodmagic:potion_flask"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "f0ab4336",
+		type: "item",
+		items: [{
+			item: "bloodmagic:component 1 25"
+		}]
+	}]
+}

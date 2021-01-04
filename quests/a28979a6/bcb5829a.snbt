@@ -1,0 +1,34 @@
+{
+	x: -9.5d,
+	y: 3.0d,
+	text: [
+		"By using the Linking Tool, link a Crystal to a block of Iron Ore and slowly, it will turn into &1Starmetal &fOre.",
+		"",
+		"You're going to need a lot of these so pile up!",
+		"",
+		"&7&oDon't start a Crusade. Or do. Who am I to stop you, &1&oStardust Crusader&7&o?"
+	],
+	dependencies: [
+		"5dd68aa0"
+	],
+	tasks: [{
+		uid: "be7d7e41",
+		type: "item",
+		title: "&1Starmetal",
+		items: [{
+			item: "astralsorcery:itemcraftingcomponent 1 1"
+		},
+		{
+			item: "astralsorcery:blockcustomore 1 1"
+		},
+		{
+			item: "astralsorcery:itemcraftingcomponent 1 2"
+		}]
+	}],
+	rewards: [{
+		uid: "4ea1231e",
+		type: "item",
+		item: "astralsorcery:itemcraftingcomponent 1 1",
+		count: 8
+	}]
+}

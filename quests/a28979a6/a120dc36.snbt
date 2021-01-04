@@ -1,0 +1,32 @@
+{
+	title: "&4Tier V &fBlood Altar",
+	icon: "bloodmagic:altar",
+	x: 36.0d,
+	y: 2.0d,
+	text: [
+		"The &4Tier V&f Blood Altar allows a whopping 184 Runes and is the final Tier you can unlock.",
+		"",
+		"Unlocks &5Obsidian Paths&f."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"315a35e9"
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "09ff1af2",
+		type: "item",
+		items: [{
+			item: "bloodmagic:blood_rune"
+		}],
+		count: 52L
+	},
+	{
+		uid: "96886356",
+		type: "item",
+		items: [{
+			item: "minecraft:beacon"
+		}],
+		count: 4L
+	}]
+}

@@ -1,0 +1,30 @@
+{
+	x: 8.0d,
+	y: -3.0d,
+	text: [
+		"Holds 1024 Demonic Will.",
+		"",
+		"Dropping the Sentient Sword on the ground when you have more than 1000 Will will consume 100 Will and summon a Sentient Specter. This spectre is an animated version of the Sentient Sword and it will follow you around.",
+		"",
+		" It can be picked up by shift right-clicking or killing it. If wounded, it will take some time to heal outside of battle. The spectre will attack anything you fight except for creepers. This also applies to players."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"6369c6df",
+		"e06421be"
+	],
+	hide: true,
+	tasks: [{
+		uid: "d79ae7e7",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "bloodmagic:soul_gem",
+			tag: {},
+			Damage: 2s
+		}],
+		ignore_nbt: 1b
+	}]
+}

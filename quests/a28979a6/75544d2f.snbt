@@ -1,0 +1,22 @@
+{
+	x: 9.0d,
+	y: 4.0d,
+	text: [
+		"After you make and bind a Lava Crystal to yourself, throwing the Lava Crystal into a furnace will subtract ~&4750 LP&f from your network and use up about &450 LP&f per smelt item."
+	],
+	dependencies: [
+		"fb1a52c5"
+	],
+	tasks: [{
+		uid: "12382743",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "bloodmagic:lava_crystal"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

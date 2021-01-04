@@ -1,0 +1,17 @@
+{
+	x: 36.0d,
+	y: 3.5d,
+	text: [
+		"Increases the Upgrade Points of Living Armor to 200."
+	],
+	dependencies: [
+		"a120dc36"
+	],
+	tasks: [{
+		uid: "a65e3990",
+		type: "item",
+		items: [{
+			item: "bloodmagic:points_upgrade"
+		}]
+	}]
+}

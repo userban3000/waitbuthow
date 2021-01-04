@@ -1,0 +1,25 @@
+{
+	x: 5.0d,
+	y: 3.0d,
+	text: [
+		"Runes are used for a few things in Blood Magic and are a key component when it comes to your Blood Altar. These runes are only used to upgrade your Blood Altar, each rune modifies your Altar in a different way.",
+		"",
+		"Blank Slates are made by right clicking Stone into the Altar, This requires a minimum of 1000 &4LP&f."
+	],
+	dependencies: [
+		"5b8aff6c"
+	],
+	tasks: [{
+		uid: "0fa29998",
+		type: "item",
+		items: [{
+			item: "bloodmagic:blood_rune"
+		}]
+	}],
+	rewards: [{
+		uid: "c8a4234b",
+		type: "item",
+		item: "bloodmagic:blood_rune",
+		count: 8
+	}]
+}

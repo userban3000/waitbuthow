@@ -1,0 +1,19 @@
+{
+	x: 5.0d,
+	y: 5.0d,
+	text: [
+		"Increases transmutation speed by 20%. Transmutation includes things such as Stone > Blank Slate.",
+		"",
+		"Although the Altar supports no Runes for now, it will from &4Tier II&f onwards."
+	],
+	dependencies: [
+		"fc8be7e3"
+	],
+	tasks: [{
+		uid: "f495c1fc",
+		type: "item",
+		items: [{
+			item: "bloodmagic:blood_rune 1 1"
+		}]
+	}]
+}
