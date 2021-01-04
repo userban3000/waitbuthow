@@ -1,0 +1,10 @@
+[
+    {
+        "fakePlayerName" : "rftools_builder",
+        "stages": [ "Digital Era", "Nanobots & Simulations"]
+    },
+	{
+        "fakePlayerName" : "[Mekanism]",
+        "stages": [ "Digital Era"]
+    }
+]
