@@ -1,0 +1,17 @@
+{
+	x: -13.0d,
+	y: -1.5d,
+	text: [
+		"From here you can keep an eye of all currently running autocrafting operations."
+	],
+	dependencies: [
+		"a13d2fc7"
+	],
+	tasks: [{
+		uid: "4a9f3d9a",
+		type: "item",
+		items: [{
+			item: "refinedstorage:crafting_monitor"
+		}]
+	}]
+}

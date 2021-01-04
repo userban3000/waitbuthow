@@ -1,0 +1,18 @@
+{
+	title: "Grid",
+	x: -8.0d,
+	y: 0.0d,
+	text: [
+		"The Grid allows you to interact with everything that's in the storage system, just drop stuff in and pull them out like any (massive) Chest."
+	],
+	dependencies: [
+		"098b8148"
+	],
+	tasks: [{
+		uid: "c81cd7d4",
+		type: "item",
+		items: [{
+			item: "refinedstorage:grid"
+		}]
+	}]
+}

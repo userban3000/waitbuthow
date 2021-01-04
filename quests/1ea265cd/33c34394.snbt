@@ -1,0 +1,23 @@
+{
+	x: 8.0d,
+	y: -3.5d,
+	text: [
+		"Crafting component in Mekanism machines."
+	],
+	dependencies: [
+		"30524da1"
+	],
+	tasks: [{
+		uid: "583fdf9d",
+		type: "item",
+		items: [{
+			item: "mekanism:teleportationcore"
+		}]
+	}],
+	rewards: [{
+		uid: "05b04d57",
+		type: "item",
+		item: "mekanism:teleportationcore",
+		count: 2
+	}]
+}

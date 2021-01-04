@@ -1,0 +1,25 @@
+{
+	title: "Enervation Dynamo",
+	x: 3.5d,
+	y: -8.5d,
+	text: [
+		"The Enervation Dynamo generates RF out of Redstone and can also be used to extract RF from chargable items."
+	],
+	dependencies: [
+		"d657012b"
+	],
+	tasks: [{
+		uid: "28297b6c",
+		type: "item",
+		items: [{
+			id: "thermalexpansion:dynamo",
+			tag: {
+				RSControl: 0b,
+				Facing: 1b,
+				Energy: 0,
+				Level: 0b
+			},
+			Damage: 4s
+		}]
+	}]
+}

@@ -1,0 +1,28 @@
+{
+	x: 4.0d,
+	y: 0.0d,
+	text: [
+		"Your entry point in Mekanism. Used in making a large part of the components for pretty much every machine."
+	],
+	dependencies: [
+		"c94c7725"
+	],
+	tasks: [{
+		uid: "06ef60ba",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "mekanism:machineblock",
+			Damage: 8s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "f1d4f348",
+		type: "item",
+		item: "minecraft:redstone_block",
+		count: 8
+	}]
+}

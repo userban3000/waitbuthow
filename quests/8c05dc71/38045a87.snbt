@@ -1,0 +1,39 @@
+{
+	title: "Magma Crucible",
+	x: 5.0d,
+	y: -1.5d,
+	text: [
+		"The Magma Crucible melts down items to their liquid equivalents."
+	],
+	dependencies: [
+		"9c8e89bb"
+	],
+	tasks: [{
+		uid: "f7780c39",
+		type: "item",
+		items: [{
+			id: "thermalexpansion:machine",
+			tag: {
+				RSControl: 0b,
+				Facing: 3b,
+				Energy: 0,
+				SideCache: [B;
+					1b,
+					1b,
+					2b,
+					2b,
+					2b,
+					2b
+				],
+				Level: 0b
+			},
+			Damage: 6s
+		}]
+	}],
+	rewards: [{
+		uid: "fac4fcd4",
+		type: "item",
+		item: "thermalfoundation:material 1 130",
+		count: 8
+	}]
+}

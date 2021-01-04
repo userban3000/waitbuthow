@@ -1,0 +1,17 @@
+{
+	x: -10.0d,
+	y: 0.0d,
+	text: [
+		"The Crafting Grid adds a crafting table to the Grid. We can't think of anything more convenient."
+	],
+	dependencies: [
+		"a292b801"
+	],
+	tasks: [{
+		uid: "7bfda668",
+		type: "item",
+		items: [{
+			item: "refinedstorage:grid 1 1"
+		}]
+	}]
+}

@@ -1,0 +1,41 @@
+{
+	title: "Fluid Transposer",
+	x: 7.0d,
+	y: -1.5d,
+	text: [
+		"The Fluid Transposer does what it says on the cover! It transposes fluids into (and out of) items!",
+		"",
+		"This has crafting applications but can also be used to fill/empty buckets, tanks etc."
+	],
+	dependencies: [
+		"9c8e89bb"
+	],
+	tasks: [{
+		uid: "ca45a5b8",
+		type: "item",
+		items: [{
+			id: "thermalexpansion:machine",
+			tag: {
+				RSControl: 0b,
+				Facing: 3b,
+				Energy: 0,
+				SideCache: [B;
+					3b,
+					1b,
+					2b,
+					2b,
+					2b,
+					2b
+				],
+				Level: 0b
+			},
+			Damage: 8s
+		}]
+	}],
+	rewards: [{
+		uid: "cfa8aff0",
+		type: "item",
+		item: "minecraft:gold_ingot",
+		count: 8
+	}]
+}

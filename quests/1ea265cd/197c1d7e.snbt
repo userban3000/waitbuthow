@@ -1,0 +1,24 @@
+{
+	x: 0.0d,
+	y: -2.0d,
+	text: [
+		"A Pulverizer-like machine, mostly used for creating Graphite Dust."
+	],
+	dependencies: [
+		"7960a46a"
+	],
+	hide: true,
+	tasks: [{
+		uid: "3668aba5",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:manufactory_idle"
+		}]
+	}],
+	rewards: [{
+		uid: "8ef3d749",
+		type: "item",
+		item: "thermalfoundation:material 1 768",
+		count: 8
+	}]
+}

@@ -1,0 +1,18 @@
+{
+	x: 8.0d,
+	y: 0.0d,
+	text: [
+		"Like the Termal Expansion Machine Frame, but for Mekanism."
+	],
+	dependencies: [
+		"eb1a133e",
+		"95175d4f"
+	],
+	tasks: [{
+		uid: "32f7ca47",
+		type: "item",
+		items: [{
+			item: "mekanism:basicblock 1 8"
+		}]
+	}]
+}

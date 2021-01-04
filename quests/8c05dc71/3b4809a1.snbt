@@ -1,0 +1,38 @@
+{
+	x: 2.0d,
+	y: -1.0d,
+	text: [
+		"This Device \"sucks up\" water from it surroundings and pumps it into Fluiducts or accepting Machines/Dynamos.",
+		"",
+		"As this is a Device and not a Machine (hence its blue hue rather than gray) it does not require RF."
+	],
+	dependencies: [
+		"79bf47b8"
+	],
+	tasks: [{
+		uid: "7e0d97ad",
+		type: "item",
+		items: [{
+			id: "thermalexpansion:device",
+			tag: {
+				RSControl: 0b,
+				Facing: 3b,
+				Energy: 0,
+				SideCache: [B;
+					0b,
+					1b,
+					0b,
+					0b,
+					0b,
+					0b
+				]
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "18b6e939",
+		type: "item",
+		item: "thermaldynamics:duct_16",
+		count: 16
+	}]
+}

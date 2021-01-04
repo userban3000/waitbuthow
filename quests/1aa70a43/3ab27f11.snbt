@@ -1,0 +1,32 @@
+{
+	title: "Ore Generation & Conveniences",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {
+				AS_Amulet_HolderLeast: -6746512977385459564L,
+				AS_Amulet_HolderMost: -3225632190481938484L
+			}
+		},
+		id: "ftbquests:custom_icon",
+		tag: {
+			icon: "assets:q/ore.png"
+		}
+	},
+	x: 6.0d,
+	y: 0.0d,
+	text: [
+		"Ore generation has been modified to create far more ores than usual. This is to alleviate the time spent mining and give you more time to just do what you want to.",
+		"",
+		"The pack also has multiple convenience features, following the \"What I don't care about shouldn't affect me\" idea.",
+		"",
+		"&7&oFor example, Rats will not spawn until you've made your first bits of Cheese."
+	],
+	dependencies: [
+		"e0ba8277"
+	],
+	tasks: [{
+		uid: "5703735a",
+		type: "checkmark",
+		title: "Click here to move on"
+	}]
+}

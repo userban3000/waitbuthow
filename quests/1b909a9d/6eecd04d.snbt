@@ -1,0 +1,28 @@
+{
+	x: -4.5d,
+	y: -7.0d,
+	shape: "square",
+	text: [
+		"25M RF at 450RF/t."
+	],
+	dependencies: [
+		"975a811d"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "09a28a04",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "simplyjetpacks:itemjetpack",
+			tag: {
+				Energy: 0,
+				JetpackParticleType: 0
+			},
+			Damage: 13s
+		}],
+		ignore_nbt: 1b
+	}]
+}

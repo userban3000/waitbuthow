@@ -1,0 +1,55 @@
+{
+	title: "The Induction Matrix",
+	x: 4.0d,
+	y: 2.0d,
+	text: [
+		"The Induction Matrix is a massive multiblock battery.",
+		"",
+		"Each Cell adds to its capacity, while each Provider adds to its transfer rate.",
+		"",
+		"Check the Guide for a build Guide.",
+		"",
+		"The Quest requirements are for the minimum size Induction Matrix."
+	],
+	dependencies: [
+		"eb1a133e"
+	],
+	tasks: [{
+		uid: "bb5f54fc",
+		type: "item",
+		items: [{
+			item: "mekanism:basicblock2 1 1"
+		}],
+		count: 32L
+	},
+	{
+		uid: "6e27a4a7",
+		type: "item",
+		items: [{
+			item: "mekanism:basicblock2 1 2"
+		}],
+		count: 2L
+	},
+	{
+		uid: "33f9b548",
+		type: "item",
+		items: [{
+			id: "mekanism:basicblock2",
+			tag: {
+				tier: 0
+			},
+			Damage: 3s
+		}]
+	},
+	{
+		uid: "6a1ecc8c",
+		type: "item",
+		items: [{
+			id: "mekanism:basicblock2",
+			tag: {
+				tier: 0
+			},
+			Damage: 4s
+		}]
+	}]
+}

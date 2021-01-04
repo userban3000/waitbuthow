@@ -1,0 +1,25 @@
+{
+	title: "&bSplit the Atom",
+	icon: "nuclearcraft:rad_x",
+	x: -1.5d,
+	y: -8.0d,
+	shape: "gear",
+	text: [
+		"One of the four Quests required to unlock the &6Nanobots & Simulations &fchapter.",
+		"",
+		"Don't stop here. Your power consumption will only ramp up from here.",
+		"",
+		"You can also progress to a Fusion Reactor.",
+		"",
+		"&7&oYou might need a Task Screen."
+	],
+	dependencies: [
+		"7eec175c"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "568e3e0b",
+		type: "forge_energy",
+		value: 100000000L
+	}]
+}

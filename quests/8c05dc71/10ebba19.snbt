@@ -1,0 +1,54 @@
+{
+	title: "Igneous Extruder",
+	x: 3.5d,
+	y: -5.0d,
+	shape: "square",
+	text: [
+		"The Igneous Extruder mixes hot & cold liquids, usually generating various types of rocks."
+	],
+	dependencies: [
+		"0bc34a3f"
+	],
+	tasks: [{
+		uid: "1920dbda",
+		type: "item",
+		items: [{
+			id: "thermalexpansion:machine",
+			tag: {
+				RSControl: 0b,
+				Facing: 3b,
+				Energy: 0,
+				SideCache: [B;
+					1b,
+					1b,
+					2b,
+					2b,
+					2b,
+					2b
+				],
+				Level: 0b
+			},
+			Damage: 15s
+		}]
+	}],
+	rewards: [{
+		uid: "83742105",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "minecraft:lava_bucket"
+		}
+	},
+	{
+		uid: "05b7e09f",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "minecraft:water_bucket"
+		}
+	}]
+}

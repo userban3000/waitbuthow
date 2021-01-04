@@ -1,0 +1,32 @@
+{
+	title: "&bFully Powered Automation",
+	x: -14.0d,
+	y: 0.0d,
+	shape: "gear",
+	text: [
+		"One of the four Quests required to unlock the &6Nanobots & Simulations &f chapter.",
+		"",
+		"This is the end of the required &dRefined Storage &fprogression.",
+		"",
+		"Continue expanding your storage & autocrafting network!",
+		"",
+		"&7&oWith the power of uploading items into the cloud, what could stop us now? Besides power outages, of course.",
+		"&7-Cerre, Virtual Architect"
+	],
+	dependencies: [
+		"b2234140"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "a8115ccc",
+		type: "item",
+		items: [{
+			item: "refinedstorage:crafter"
+		}]
+	}],
+	rewards: [{
+		uid: "defa4290",
+		type: "item",
+		item: "refinedstorage:crafter"
+	}]
+}

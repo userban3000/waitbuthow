@@ -1,0 +1,13 @@
+{
+	title: "&6Digital Era",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "refinedstorage:fluid_storage_disk",
+		Damage: 3s
+	},
+	always_invisible: false,
+	group: -222794798,
+	default_quest_shape: ""
+}

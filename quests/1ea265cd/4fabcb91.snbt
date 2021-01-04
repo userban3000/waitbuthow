@@ -1,0 +1,17 @@
+{
+	x: 1.5d,
+	y: -6.0d,
+	text: [
+		"Used in crafting most NuclearCraft machines."
+	],
+	dependencies: [
+		"a559bab4"
+	],
+	tasks: [{
+		uid: "06b2be1c",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:part 1 10"
+		}]
+	}]
+}

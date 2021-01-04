@@ -1,0 +1,19 @@
+{
+	title: "&6Jetpacking",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "simplyjetpacks:itemjetpack",
+		tag: {
+			Energy: 200000,
+			JetpackParticleType: 0
+		}
+	},
+	description: [
+		"Minor chapter. Unlocked in &6Thermally Expanding&7."
+	],
+	always_invisible: false,
+	group: -1279017200,
+	default_quest_shape: ""
+}

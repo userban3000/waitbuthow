@@ -1,0 +1,41 @@
+{
+	x: 9.0d,
+	y: 3.0d,
+	text: [
+		"The Arboreal Extractor extracts certain liquids from trees. It must be placed at the base of the tree, facing away from it.",
+		"",
+		"The trees have to be natural, be they pre-existing or grown from a sapling. Just not hand-built.",
+		"",
+		"They also experience diminishing returns when around the same tree. 4 Extractors around one tree will work each at 0.5x speed, meaning 4 Extractors around one tree are only twice as fast than just 1 extractor."
+	],
+	dependencies: [
+		"57d75c1f"
+	],
+	tasks: [{
+		uid: "83564ec5",
+		type: "item",
+		items: [{
+			id: "thermalexpansion:device",
+			tag: {
+				RSControl: 0b,
+				Facing: 3b,
+				Energy: 0,
+				SideCache: [B;
+					1b,
+					1b,
+					2b,
+					2b,
+					2b,
+					2b
+				]
+			},
+			Damage: 3s
+		}]
+	}],
+	rewards: [{
+		uid: "c3c5afa1",
+		type: "item",
+		item: "thermaldynamics:duct_16",
+		count: 8
+	}]
+}

@@ -1,0 +1,26 @@
+{
+	x: -6.0d,
+	y: 0.0d,
+	text: [
+		"The heart of your Refined Storage system. Can be connected anywhere in the system.",
+		"",
+		"Only this block needs power. It will distribute it throughout the network."
+	],
+	dependencies: [
+		"52f92446"
+	],
+	tasks: [{
+		uid: "e43e9b1d",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "refinedstorage:controller",
+			tag: {
+				Energy: 0
+			}
+		}],
+		ignore_nbt: 1b
+	}]
+}

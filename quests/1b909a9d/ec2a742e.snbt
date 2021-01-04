@@ -1,0 +1,19 @@
+{
+	x: 1.0d,
+	y: 0.0d,
+	text: [
+		"&7&oBoost up."
+	],
+	dependencies: [
+		"897f3c04"
+	],
+	hide: true,
+	tasks: [{
+		uid: "c334f82d",
+		type: "item",
+		items: [{
+			item: "simplyjetpacks:metaitemmods 1 26"
+		}],
+		count: 2L
+	}]
+}
