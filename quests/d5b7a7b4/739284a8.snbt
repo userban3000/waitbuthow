@@ -1,0 +1,25 @@
+{
+	x: 4.0d,
+	y: 2.0d,
+	text: [
+		"Contains everything you'll need to know for Nature's Aura."
+	],
+	dependencies: [
+		"c8cb2077"
+	],
+	tasks: [{
+		uid: "17affe0d",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "patchouli:guide_book",
+			tag: {
+				"patchouli:book": "naturesaura:book"
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

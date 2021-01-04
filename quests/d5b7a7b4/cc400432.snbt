@@ -1,0 +1,21 @@
+{
+	title: "Stand User",
+	x: 6.0d,
+	y: 0.0d,
+	text: [
+		"Used in the Ritual of the Forest, a central crafting mechanic in Nature's Aura.",
+		"",
+		"Check the Guide for a build guide."
+	],
+	dependencies: [
+		"146454c2"
+	],
+	tasks: [{
+		uid: "4dfd0239",
+		type: "item",
+		items: [{
+			item: "naturesaura:wood_stand"
+		}],
+		count: 8L
+	}]
+}

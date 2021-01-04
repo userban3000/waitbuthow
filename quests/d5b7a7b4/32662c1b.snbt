@@ -1,0 +1,17 @@
+{
+	x: -6.0d,
+	y: -1.0d,
+	text: [
+		"The Imbuer is used for adding spells to a Staff. Place the Spell Dust down and the Staff above, then just wait a short while."
+	],
+	dependencies: [
+		"d0829eb1"
+	],
+	tasks: [{
+		uid: "fe8c16d7",
+		type: "item",
+		items: [{
+			item: "roots:imbuer"
+		}]
+	}]
+}

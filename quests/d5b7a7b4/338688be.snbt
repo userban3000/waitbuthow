@@ -1,0 +1,49 @@
+{
+	x: -8.0d,
+	y: 0.0d,
+	text: [
+		"One of the most important spells is the &a&lGrove Supplication &r&fspell.",
+		"",
+		"It turns a Grove Stone into... well it's still a Grove Stone but now it's been... Supplicated?",
+		"",
+		"Either way, it's used in conjunction with a Fey Crafter to progress towards harder to craft items.",
+		"",
+		"&7&oDon't ask us how it works."
+	],
+	dependencies: [
+		"db085898",
+		"32662c1b"
+	],
+	tasks: [{
+		uid: "03229f3e",
+		type: "item",
+		items: [{
+			item: "roots:grove_stone"
+		}]
+	},
+	{
+		uid: "84d19a19",
+		type: "item",
+		title: "Spell Dust (Grove Supplication)",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "roots:spell_dust",
+			tag: {
+				spell_holder: {
+					spell_0: "spell_supplication",
+					selectedSlot: 0,
+					lastCooldown: 0,
+					cooldown: 0
+				}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "ae1388e4",
+		type: "item",
+		item: "roots:grove_stone",
+		count: 3
+	}]
+}

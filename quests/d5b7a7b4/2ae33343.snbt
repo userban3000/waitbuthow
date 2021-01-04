@@ -1,0 +1,43 @@
+{
+	title: "Sunshine in a bottle",
+	x: 6.0d,
+	y: -4.0d,
+	text: [
+		"Craft a Bottle and a Cork and throw it on the ground to get various, dimension-dependent, items",
+		"",
+		"Overworld - Sunlight",
+		"Nether - Ghosts",
+		"End - Darkness"
+	],
+	dependencies: [
+		"c8cb2077"
+	],
+	tasks: [{
+		uid: "881dc926",
+		type: "item",
+		items: [{
+			item: "naturesaura:bottle_two_the_rebottling"
+		}]
+	},
+	{
+		uid: "15e36e83",
+		type: "item",
+		items: [{
+			id: "naturesaura:aura_bottle",
+			tag: {
+				stored_type: "naturesaura:overworld"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "8292dc09",
+		type: "item",
+		item: {
+			id: "naturesaura:aura_bottle",
+			tag: {
+				stored_type: "naturesaura:overworld"
+			}
+		},
+		count: 4
+	}]
+}

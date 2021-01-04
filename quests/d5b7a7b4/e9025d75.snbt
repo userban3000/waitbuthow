@@ -1,0 +1,17 @@
+{
+	x: -10.0d,
+	y: 2.0d,
+	text: [
+		"Used for making Runic Shears & Standing Stones."
+	],
+	dependencies: [
+		"aba140a9"
+	],
+	tasks: [{
+		uid: "aa8f7655",
+		type: "item",
+		items: [{
+			item: "roots:runestone"
+		}]
+	}]
+}

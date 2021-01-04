@@ -1,0 +1,24 @@
+{
+	x: 6.0d,
+	y: -6.0d,
+	text: [
+		"The Environmental Ocular works just like the Environmental Eye, except it has a much larger range it can look over.",
+		"",
+		"Where the Eye would show a full or empty bar, the Ocular will reveal a new bar that shows in higher detail the real amount of Aura."
+	],
+	dependencies: [
+		"93e58cde"
+	],
+	tasks: [{
+		uid: "36228674",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "naturesaura:eye_improved"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

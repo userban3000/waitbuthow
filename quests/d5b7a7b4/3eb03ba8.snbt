@@ -1,0 +1,95 @@
+{
+	title: "&bDruid of the Lands",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "roots:wildwood_helmet"
+	},
+	x: -16.5d,
+	y: 0.0d,
+	shape: "hexagon",
+	text: [
+		"One of the two Quests required to unlock the &6Forged in Light, Hardened in Blood &fchapter.",
+		"",
+		"This questline doesn't do the mod justice. Due to limitations, the quests can't really track whether or not you've done a certain ritual or casted a certain spell.",
+		"",
+		"We seriously encourage you to try out what the mod has to offer before moving on!"
+	],
+	dependencies: [
+		"98db74cc"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "5a9a3e6b",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "roots:wildwood_boots"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "548df4da",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "roots:wildwood_leggings"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "1aab33e7",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "roots:wildwood_chestplate"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "017c0ab2",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "roots:wildwood_helmet"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "4e44bcf9",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "roots:wildwood_quiver"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "21b9d01a",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "roots:wildwood_bow"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

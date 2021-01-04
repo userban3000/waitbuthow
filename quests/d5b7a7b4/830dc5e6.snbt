@@ -1,0 +1,96 @@
+{
+	title: "&dDeeper Roots",
+	icon: "roots:wildroot",
+	x: -2.0d,
+	y: 0.0d,
+	text: [
+		"Roots is about communing with nature and channeling it into various spells and fireside rituals.",
+		"",
+		"Starting point for &dRoots 3&f."
+	],
+	dependencies: [
+		"00432023"
+	],
+	hide: true,
+	tasks: [{
+		uid: "d4a11a07",
+		type: "item",
+		items: [{
+			item: "roots:wildroot"
+		}]
+	},
+	{
+		uid: "a05bce1a",
+		type: "item",
+		items: [{
+			item: "roots:terra_moss"
+		}]
+	},
+	{
+		uid: "908774db",
+		type: "item",
+		title: "Any Knife",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "roots:wood_knife"
+		},
+		{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "roots:stone_knife"
+		},
+		{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "roots:iron_knife"
+		},
+		{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "mysticalworld:copper_knife"
+		},
+		{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "mysticalworld:silver_knife"
+		},
+		{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "roots:gold_knife"
+		},
+		{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "roots:diamond_knife"
+		},
+		{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "mysticalworld:amethyst_knife"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "a60882df",
+		type: "item",
+		item: "roots:wildroot",
+		count: 8
+	},
+	{
+		uid: "cbefec82",
+		type: "item",
+		item: "roots:terra_moss",
+		count: 16
+	}]
+}

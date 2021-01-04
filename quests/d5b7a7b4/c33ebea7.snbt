@@ -1,0 +1,24 @@
+{
+	title: "&bUnbound Aura",
+	x: 14.0d,
+	y: -6.0d,
+	shape: "hexagon",
+	text: [
+		"One of the two Quests required to unlock the &6Forged in Light, Hardened in Blood &fchapter.",
+		"",
+		"Although the questline ends here, if you keep poking around through the Aura, you'll find that the mod offers a bunch of pretty cool tools.",
+		"",
+		"Try your hand at building an ore generator. It's a fun challenge so I'll let you figure it out. Good luck!"
+	],
+	dependencies: [
+		"75962435"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "73824ca1",
+		type: "item",
+		items: [{
+			item: "naturesaura:generator_limit_remover"
+		}]
+	}]
+}

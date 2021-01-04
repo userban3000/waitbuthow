@@ -1,0 +1,30 @@
+{
+	title: "Mortar & Pestle",
+	x: -6.0d,
+	y: 1.0d,
+	text: [
+		"Used to create the Spell Dusts, as well as various other components."
+	],
+	dependencies: [
+		"d0829eb1"
+	],
+	tasks: [{
+		uid: "d99b7fc1",
+		type: "item",
+		items: [{
+			item: "roots:mortar"
+		}]
+	},
+	{
+		uid: "751266d5",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "roots:pestle"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}
