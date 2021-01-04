@@ -1,0 +1,97 @@
+{
+	title: "ebw_expert",
+	loot_size: 1,
+	rewards: [{
+		item: "ebwizardry:spell_book 1 91"
+	},
+	{
+		item: "ebwizardry:spell_book 1 92"
+	},
+	{
+		item: "ebwizardry:spell_book 1 93"
+	},
+	{
+		item: "ebwizardry:spell_book 1 94"
+	},
+	{
+		item: "ebwizardry:spell_book 1 95"
+	},
+	{
+		item: "ebwizardry:spell_book 1 96"
+	},
+	{
+		item: "ebwizardry:spell_book 1 136"
+	},
+	{
+		item: "ebwizardry:spell_book 1 97"
+	},
+	{
+		item: "ebwizardry:spell_book 1 98"
+	},
+	{
+		item: "ebwizardry:spell_book 1 137"
+	},
+	{
+		item: "ebwizardry:spell_book 1 138"
+	},
+	{
+		item: "ebwizardry:spell_book 1 99"
+	},
+	{
+		item: "ebwizardry:spell_book 1 100"
+	},
+	{
+		item: "ebwizardry:spell_book 1 101"
+	},
+	{
+		item: "ebwizardry:spell_book 1 167"
+	},
+	{
+		item: "ebwizardry:spell_book 1 168"
+	},
+	{
+		item: "ebwizardry:spell_book 1 102"
+	},
+	{
+		item: "ebwizardry:spell_book 1 103"
+	},
+	{
+		item: "ebwizardry:spell_book 1 104"
+	},
+	{
+		item: "ebwizardry:spell_book 1 139"
+	},
+	{
+		item: "ebwizardry:spell_book 1 169"
+	},
+	{
+		item: "ebwizardry:spell_book 1 105"
+	},
+	{
+		item: "ebwizardry:spell_book 1 106"
+	},
+	{
+		item: "ebwizardry:spell_book 1 107"
+	},
+	{
+		item: "ebwizardry:spell_book 1 108"
+	},
+	{
+		item: "ebwizardry:spell_book 1 170"
+	},
+	{
+		item: "ebwizardry:spell_book 1 171"
+	},
+	{
+		item: "ebwizardry:spell_book 1 109"
+	},
+	{
+		item: "ebwizardry:spell_book 1 110"
+	},
+	{
+		item: "ebwizardry:spell_book 1 140"
+	},
+	{
+		item: "ebwizardry:spell_book 1 172"
+	}]
+}

@@ -1,0 +1,20 @@
+{
+	x: -9.5d,
+	y: -1.0d,
+	text: [
+		"Shooting its eye out will render it rather blind.",
+		"",
+		"&7&oWhat are you looking at?"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"73b4234f"
+	],
+	tasks: [{
+		uid: "6f4b08dc",
+		type: "advancement",
+		title: "Kill a Cyclops!",
+		advancement: "iceandfire:iceandfire/kill_cyclops",
+		criterion: ""
+	}]
+}

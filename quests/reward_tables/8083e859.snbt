@@ -1,0 +1,29 @@
+{
+	title: "woodlogs",
+	loot_size: 1,
+	hide_tooltip: true,
+	rewards: [{
+		item: "minecraft:log",
+		count: 32
+	},
+	{
+		item: "minecraft:log 1 1",
+		count: 32
+	},
+	{
+		item: "minecraft:log 1 2",
+		count: 32
+	},
+	{
+		item: "minecraft:log 1 3",
+		count: 32
+	},
+	{
+		item: "minecraft:log2",
+		count: 32
+	},
+	{
+		item: "minecraft:log2 1 1",
+		count: 32
+	}]
+}

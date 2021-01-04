@@ -1,0 +1,26 @@
+{
+	title: "Growth Hormones",
+	x: -6.0d,
+	y: -5.0d,
+	text: [
+		"Feeding these to your dragon adds a whole day's worth of growth!",
+		"",
+		"&7&o100% Natural!"
+	],
+	dependencies: [
+		"33754765"
+	],
+	tasks: [{
+		uid: "d499ba15",
+		type: "item",
+		items: [{
+			item: "iceandfire:dragon_meal"
+		}]
+	}],
+	rewards: [{
+		uid: "eb80f77f",
+		type: "item",
+		item: "iceandfire:dragon_meal",
+		count: 8
+	}]
+}

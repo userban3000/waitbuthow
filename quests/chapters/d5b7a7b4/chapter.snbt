@@ -1,0 +1,7 @@
+{
+	title: "&6Sylvan Arts",
+	icon: "roots:wildroot",
+	always_invisible: false,
+	group: 914083230,
+	default_quest_shape: ""
+}

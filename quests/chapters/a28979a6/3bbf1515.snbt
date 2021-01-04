@@ -1,0 +1,65 @@
+{
+	title: "&1Celestial &fCrystal",
+	x: -6.0d,
+	y: -1.5d,
+	text: [
+		"Instead of using Rock Crystal, you can use Celestial Crystals. Throwing one Stardust and one Crystal (attuned/un-attuned or even Celestial ones to reroll them) into Liquid Starlight will slowly turn them into Celestial Crystal Clusters.",
+		"",
+		"The Clusters need to be left to grow. You'll know when they have matured when they give off small white particles (or with F3/Hwyla). When they're fully grown, break them with an iron pickaxe or above.",
+		"",
+		"They grow faster if Starlight is directed into the cluster.",
+		"",
+		"Celestial Crystals are, in almost all cases, equal or strictly superior to Rock Crystals, unless used in crafting recipes which don't care about stats."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"6440d5a5",
+		"a505cfe7",
+		"695979e2"
+	],
+	hide: true,
+	tasks: [{
+		uid: "32d7a3a7",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "astralsorcery:itemcelestialcrystal",
+			tag: {
+				astralsorcery: {
+					crystalProperties: {
+						collectiveCapability: 100,
+						size: 900,
+						fract: 0,
+						purity: 100,
+						sizeOverride: -1
+					}
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "1ce63ab8",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "astralsorcery:itemcelestialcrystal",
+			tag: {
+				astralsorcery: {
+					crystalProperties: {
+						collectiveCapability: 100,
+						size: 900,
+						fract: 0,
+						purity: 100,
+						sizeOverride: -1
+					}
+				}
+			}
+		}
+	}]
+}

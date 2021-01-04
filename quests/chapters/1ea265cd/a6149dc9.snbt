@@ -1,0 +1,41 @@
+{
+	title: "Nuclear Fusion",
+	x: -4.5d,
+	y: -6.0d,
+	text: [
+		"The Fusion Reactor generates massive amounts of RF but is difficult to build and to start up.",
+		"",
+		"Check the Guide for more information.",
+		"",
+		"&7&oFlying Microtonal Banana"
+	],
+	dependencies: [
+		"d1125643"
+	],
+	tasks: [{
+		uid: "53c15b07",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:fusion_core"
+		}]
+	},
+	{
+		uid: "189f7ad0",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:fusion_connector"
+		}],
+		count: 4L
+	},
+	{
+		uid: "d91c8fea",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:fusion_electromagnet_idle"
+		},
+		{
+			item: "nuclearcraft:fusion_electromagnet_transparent_idle"
+		}],
+		count: 96L
+	}]
+}

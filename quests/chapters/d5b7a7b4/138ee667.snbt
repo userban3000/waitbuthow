@@ -1,0 +1,17 @@
+{
+	x: 12.0d,
+	y: -2.0d,
+	text: [
+		"Used in late-game items."
+	],
+	dependencies: [
+		"0fbf4b2e"
+	],
+	tasks: [{
+		uid: "b0b28afd",
+		type: "item",
+		items: [{
+			item: "naturesaura:sky_ingot"
+		}]
+	}]
+}

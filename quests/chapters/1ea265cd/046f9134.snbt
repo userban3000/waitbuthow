@@ -1,0 +1,38 @@
+{
+	title: "&dSilicon Valley",
+	x: -2.0d,
+	y: 0.0d,
+	text: [
+		"Silicon and Quartz Enriched Iron are the basic materials of most of &dRefined Storage&f. Prepare to craft them in rather large quantities."
+	],
+	dependencies: [
+		"9ff36fa2"
+	],
+	hide: true,
+	tasks: [{
+		uid: "15e44da6",
+		type: "item",
+		items: [{
+			item: "refinedstorage:silicon"
+		}]
+	},
+	{
+		uid: "b449c808",
+		type: "item",
+		items: [{
+			item: "refinedstorage:quartz_enriched_iron"
+		}]
+	}],
+	rewards: [{
+		uid: "ef8b5478",
+		type: "item",
+		item: "refinedstorage:silicon",
+		count: 8
+	},
+	{
+		uid: "b42fe5be",
+		type: "item",
+		item: "refinedstorage:quartz_enriched_iron",
+		count: 16
+	}]
+}

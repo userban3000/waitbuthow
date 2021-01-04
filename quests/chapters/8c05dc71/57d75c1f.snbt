@@ -1,0 +1,48 @@
+{
+	title: "Compression Dynamo",
+	x: 8.0d,
+	y: 3.0d,
+	text: [
+		"The Compression Dynamo takes liquid fuel and a coolant in order to generate RF.",
+		"",
+		"Combos well with Arboreal Extractors and Fractionating Stills."
+	],
+	dependencies: [
+		"9c8e89bb"
+	],
+	tasks: [{
+		uid: "cba78700",
+		type: "item",
+		items: [{
+			id: "thermalexpansion:dynamo",
+			tag: {
+				RSControl: 0b,
+				Facing: 1b,
+				Energy: 0,
+				Level: 0b
+			},
+			Damage: 2s
+		}]
+	}],
+	rewards: [{
+		uid: "b24b1284",
+		type: "item",
+		item: {
+			id: "thermalexpansion:device",
+			tag: {
+				RSControl: 0b,
+				Facing: 3b,
+				Energy: 0,
+				SideCache: [B;
+					1b,
+					1b,
+					2b,
+					2b,
+					2b,
+					2b
+				]
+			},
+			Damage: 3s
+		}
+	}]
+}

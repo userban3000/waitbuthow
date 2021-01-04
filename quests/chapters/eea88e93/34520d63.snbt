@@ -1,0 +1,22 @@
+{
+	x: 2.0d,
+	y: -4.0d,
+	dependencies: [
+		"1fa2f5d6"
+	],
+	tasks: [{
+		uid: "80ed4c05",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {
+					AS_Amulet_HolderLeast: -6746512977385459564L,
+					AS_Amulet_HolderMost: -3225632190481938484L
+				}
+			},
+			id: "rustic:book"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

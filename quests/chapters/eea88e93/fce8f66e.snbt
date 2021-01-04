@@ -1,0 +1,18 @@
+{
+	title: "The Plot of Tom & Jerry",
+	x: 1.0d,
+	y: 4.0d,
+	text: [
+		"Setting these traps around can help with a rat infestation, if only ever so slightly."
+	],
+	dependencies: [
+		"a039e868"
+	],
+	tasks: [{
+		uid: "ceb1495d",
+		type: "item",
+		items: [{
+			item: "rats:rattrap"
+		}]
+	}]
+}

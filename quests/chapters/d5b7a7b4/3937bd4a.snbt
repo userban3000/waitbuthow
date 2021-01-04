@@ -1,0 +1,39 @@
+{
+	title: "...Four 1/1 Tokens...",
+	x: 8.0d,
+	y: -2.0d,
+	text: [
+		"These tokens are crafting components, which can later be upgraded into stronger tokens that have other crafting uses."
+	],
+	dependencies: [
+		"cc400432"
+	],
+	tasks: [{
+		uid: "1cb6972d",
+		type: "item",
+		items: [{
+			item: "naturesaura:token_joy"
+		}]
+	},
+	{
+		uid: "2017aa25",
+		type: "item",
+		items: [{
+			item: "naturesaura:token_fear"
+		}]
+	},
+	{
+		uid: "48488ee1",
+		type: "item",
+		items: [{
+			item: "naturesaura:token_anger"
+		}]
+	},
+	{
+		uid: "e9d97999",
+		type: "item",
+		items: [{
+			item: "naturesaura:token_sorrow"
+		}]
+	}]
+}

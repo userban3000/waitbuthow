@@ -1,0 +1,19 @@
+{
+	x: -4.0d,
+	y: 5.0d,
+	text: [
+		"Will slowly light up caves below it!",
+		"",
+		"&7&oNever need torches again! While inside the Cave Illuminator's 64 block radius."
+	],
+	dependencies: [
+		"5a1924a2"
+	],
+	tasks: [{
+		uid: "8ea11dc0",
+		type: "item",
+		items: [{
+			item: "astralsorcery:blockworldilluminator"
+		}]
+	}]
+}

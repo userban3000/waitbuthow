@@ -1,0 +1,16 @@
+{
+	x: 5.5d,
+	y: 13.0d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"92ad230e"
+	],
+	hide: true,
+	tasks: [{
+		uid: "9c8ffb00",
+		type: "item",
+		items: [{
+			item: "rats:rat_upgrade_shears"
+		}]
+	}]
+}

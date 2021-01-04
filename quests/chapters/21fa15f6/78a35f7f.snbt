@@ -1,0 +1,39 @@
+{
+	title: "&6Tinkering I &f- &dA Rough Sketch",
+	x: 0.0d,
+	y: 0.0d,
+	text: [
+		"&dTinker's Construct &fallows you to build custom tools, picking out any material for any part!",
+		"",
+		"&6Tinkering I &fwill see you making basic tools out of wood, stone and a few other non-metallic materials.",
+		"",
+		"&6Tinkering II &fwill allow you to build a massive Smeltery, where you'll melt metals into their liquid forms and pour them into casts to build even stronger tools!",
+		"",
+		"&7&oThe Smeltery scorched on through the night, its warmth blazing the neighboring village."
+	],
+	dependencies: [
+		"f710dd18",
+		"56087765",
+		"2f2d6c0f"
+	],
+	hide: true,
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "a93b8230",
+		type: "item",
+		items: [{
+			item: "tconstruct:pattern"
+		}]
+	}],
+	rewards: [{
+		uid: "6f6957f8",
+		type: "item",
+		item: "tconstruct:tooltables 1 4"
+	},
+	{
+		uid: "2e115231",
+		type: "item",
+		item: "tconstruct:pattern",
+		count: 16
+	}]
+}

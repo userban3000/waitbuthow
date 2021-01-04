@@ -1,0 +1,27 @@
+{
+	x: 6.0d,
+	y: -1.0d,
+	text: [
+		"Crafting Snares and hunting mobs is a chore. The Petty Tartaric Gem is an entry-level way of storing up to 64 Demonic Will.",
+		"",
+		"The gem can be kept in your inventory and each time a mob drops Will, it will be stored in the Gem.",
+		"",
+		"Make 2 and put one into the forge. If you have any Wills leftover throw them on the ground and pick them up again. They'll be absorbed into the Gem."
+	],
+	dependencies: [
+		"0c8cb47c"
+	],
+	tasks: [{
+		uid: "fe340adb",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "bloodmagic:soul_gem",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,32 @@
+{
+	title: "&bMaster Wand",
+	x: 11.5d,
+	y: -2.0d,
+	shape: "diamond",
+	text: [
+		"&7&oA Master Wand doesn't imply a Master Wizard. You'd be surprised to learn accidents are actually far more common.",
+		"&7-Theeia, High Artificer"
+	],
+	dependencies: [
+		"afc475c9"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "44c5cd0f",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "ebwizardry:master_wand"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "b9b95d7d",
+		type: "item",
+		item: "ebwizardry:grand_crystal",
+		count: 32
+	}]
+}

@@ -1,0 +1,58 @@
+{
+	title: "&4Bound &fTools",
+	x: 21.5d,
+	y: 6.0d,
+	text: [
+		"Bound Tools have no durability, as they run off &4LP&f, at &420 LP&f every 4 seconds.",
+		"",
+		"These tools also have secondary uses. Holding right click and letting go will clear a 11x11x11 cube above you at a cost of &410,000 LP&f."
+	],
+	dependencies: [
+		"7edc16d0"
+	],
+	tasks: [{
+		uid: "43fbfb3e",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "bloodmagic:bound_pickaxe",
+			tag: {
+				Unbreakable: 1b
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "9f229bde",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "bloodmagic:bound_axe",
+			tag: {
+				Unbreakable: 1b
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "11fb533d",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "bloodmagic:bound_shovel",
+			tag: {
+				Unbreakable: 1b
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

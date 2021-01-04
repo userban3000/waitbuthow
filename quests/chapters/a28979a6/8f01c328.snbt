@@ -1,0 +1,19 @@
+{
+	x: 8.0d,
+	y: 5.0d,
+	text: [
+		"The alchemy table will be used a fair bit in this mod, it's used for crafting various ingredients and it can also be used to double ore and even make potions. It requires &4LP&f from a Blood Orb to function.",
+		"",
+		"The Alchemy Table can also be automated. Top is for the Blood Orbs, sides for inputs and bottom for outputs."
+	],
+	dependencies: [
+		"fb1a52c5"
+	],
+	tasks: [{
+		uid: "0b77e490",
+		type: "item",
+		items: [{
+			item: "bloodmagic:alchemy_table"
+		}]
+	}]
+}

@@ -1,0 +1,22 @@
+{
+	x: 4.0d,
+	y: 11.0d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"92ad230e"
+	],
+	hide: true,
+	tasks: [{
+		uid: "782f94c9",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "rats:rat_upgrade_miner",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

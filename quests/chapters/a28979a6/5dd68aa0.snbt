@@ -1,0 +1,32 @@
+{
+	x: -10.0d,
+	y: 2.0d,
+	text: [
+		"Linking Crystals to certain blocks will transmute them, so here's a full list of possible transmutations.",
+		"",
+		"Iron Ore - &1Starmetal &fOre",
+		"Netherrack - Nether Brick",
+		"Sandstone - Endstone",
+		"Sea Lantern - Lapis Block",
+		"Magma Block - Obsidian",
+		"Pumpkin - Cake",
+		"Netherwart Block - Soul Sand",
+		"Diamond Ore - Emerald Ore",
+		"Sand - Clay"
+	],
+	dependencies: [
+		"695979e2"
+	],
+	tasks: [{
+		uid: "0430fb88",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "astralsorcery:itemlinkingtool"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

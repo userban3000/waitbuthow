@@ -1,0 +1,25 @@
+{
+	x: -14.0d,
+	y: 4.0d,
+	text: [
+		"Not only is it quick, it's also rather painless.",
+		"",
+		"&7&oGo on, deer. Back into the woods you go."
+	],
+	dependencies: [
+		"53ada86e"
+	],
+	tasks: [{
+		uid: "604fc4c3",
+		type: "item",
+		items: [{
+			item: "roots:fey_leather"
+		}]
+	}],
+	rewards: [{
+		uid: "63282b6a",
+		type: "item",
+		item: "roots:fey_leather",
+		count: 8
+	}]
+}

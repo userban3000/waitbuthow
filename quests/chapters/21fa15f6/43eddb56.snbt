@@ -1,0 +1,33 @@
+{
+	x: 1.0d,
+	y: 3.5d,
+	text: [
+		"Holds the fuel for the smeltery.",
+		"",
+		"Lava is not hot enough to melt most stuff. You're probably going to need Blazing Pyrotheum or Liquid Starlight."
+	],
+	dependencies: [
+		"4bb4bb21"
+	],
+	tasks: [{
+		uid: "01a3cf8a",
+		type: "item",
+		items: [{
+			item: "tconstruct:seared_tank"
+		}]
+	}],
+	rewards: [{
+		uid: "cd6e9e52",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "pyrotheum",
+				Amount: 1000
+			}
+		}
+	}]
+}

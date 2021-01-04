@@ -1,0 +1,23 @@
+{
+	x: 24.5d,
+	y: 4.0d,
+	text: [
+		"Each Ritual will cost a certain amount of LP if you try to activate a Ritual without the required amount of LP in your personal network you will get an error message. ",
+		"",
+		" Many rituals with ongoing effects have an LP cost after activation, either based on action or time and running your personal network dry with an active ritual will cause it to stop functioning and may cause nausea or simply kill you."
+	],
+	dependencies: [
+		"4882047d"
+	],
+	tasks: [{
+		uid: "74ff1c7e",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "bloodmagic:activation_crystal"
+		}],
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,20 @@
+{
+	title: "Make a Totem Pole!",
+	x: 4.0d,
+	y: 0.0d,
+	text: [
+		"&7&oChanneling the spirits of animals has never been easier."
+	],
+	dependencies: [
+		"cd56f030"
+	],
+	tasks: [{
+		uid: "9b208386",
+		type: "observation",
+		title: "Make a Totem Pole!",
+		icon: "totemic:totem_base",
+		match_type: "block_id",
+		match: "totemic:totem_base",
+		timer: 0L
+	}]
+}

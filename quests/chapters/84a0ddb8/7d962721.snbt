@@ -1,0 +1,19 @@
+{
+	x: -2.5d,
+	y: 0.5d,
+	dependencies: [
+		"ed7025f4"
+	],
+	tasks: [{
+		uid: "b3f8afa8",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "wings:blue_butterfly_wings"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

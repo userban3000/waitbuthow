@@ -1,0 +1,15 @@
+{
+	x: -6.0d,
+	y: 1.5d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"73b4234f"
+	],
+	tasks: [{
+		uid: "f6c8e8b4",
+		type: "advancement",
+		title: "Trade with Myrmex!",
+		advancement: "iceandfire:iceandfire/myrmex_resin",
+		criterion: ""
+	}]
+}

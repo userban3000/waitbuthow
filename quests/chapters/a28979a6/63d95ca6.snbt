@@ -1,0 +1,24 @@
+{
+	x: -2.5d,
+	y: 3.0d,
+	text: [
+		"Enhances tools and weapons!",
+		"",
+		"Gives a 10% damage bonus to any weapon, but is even more useful for Rock Crystal tools.",
+		"",
+		"Throwing Rock Crystal tools and weapons into water increases their Size but lowers their Cutting, unless the Crystal was &osplit &rbeforehand.",
+		"",
+		"&7&oSplitting (essentially doubling) occurs randomly when Crystals submerged in Liquid Starlight reach their maximum size. This will reduce the Size and randomise the Cutting."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"462d3a2f"
+	],
+	tasks: [{
+		uid: "430ac507",
+		type: "item",
+		items: [{
+			item: "astralsorcery:blockmachine 1 1"
+		}]
+	}]
+}

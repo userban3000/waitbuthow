@@ -1,0 +1,22 @@
+{
+	x: 4.5d,
+	y: 0.5d,
+	text: [
+		"Any Wizard needs a field guide. Everything you need to know is explained here."
+	],
+	dependencies: [
+		"46fb9960"
+	],
+	tasks: [{
+		uid: "2ac1f870",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "ebwizardry:wizard_handbook"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

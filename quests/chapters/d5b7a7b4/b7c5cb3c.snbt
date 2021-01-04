@@ -1,0 +1,35 @@
+{
+	title: "&bFairy Dust",
+	x: -14.0d,
+	y: 2.0d,
+	shape: "hexagon",
+	text: [
+		"Unlocks the &6Lepidopterology &fminor chapter.",
+		"",
+		"&7&oFairy remnants were the secret ingredient to attaching wings all along!"
+	],
+	dependencies: [
+		"a52ef06c"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "ebfa598a",
+		type: "item",
+		items: [{
+			item: "wings:fairy_dust"
+		}]
+	}],
+	rewards: [{
+		uid: "cd4176bd",
+		type: "gamestage",
+		title: "Chapter Unlock: &6Lepidopterology",
+		icon: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "wings:dragon_wings"
+		},
+		auto: "no_toast",
+		stage: "Lepidopterology"
+	}]
+}

@@ -1,0 +1,31 @@
+{
+	title: "Itemduct",
+	x: -2.0d,
+	y: 1.0d,
+	shape: "hexagon",
+	text: [
+		"Your basic item transport.",
+		"",
+		"Check the Guide page for Itemducts for any issues you may face while using them (usually items not being sent)."
+	],
+	dependencies: [
+		"79bf47b8"
+	],
+	tasks: [{
+		uid: "f4bf8864",
+		type: "item",
+		title: "Itemduct",
+		items: [{
+			item: "thermaldynamics:duct_32"
+		},
+		{
+			item: "thermaldynamics:duct_32 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "c7531d01",
+		type: "item",
+		item: "thermaldynamics:duct_32",
+		count: 8
+	}]
+}

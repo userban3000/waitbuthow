@@ -1,0 +1,23 @@
+{
+	x: -5.0d,
+	y: 1.5d,
+	text: [
+		"The Importer imports items or fluids from an inventory in front of the block and inserts it in the storage network."
+	],
+	dependencies: [
+		"51ec16ab"
+	],
+	tasks: [{
+		uid: "1c999eee",
+		type: "item",
+		items: [{
+			item: "refinedstorage:importer"
+		}]
+	}],
+	rewards: [{
+		uid: "eea6b918",
+		type: "item",
+		item: "refinedstorage:cable",
+		count: 4
+	}]
+}

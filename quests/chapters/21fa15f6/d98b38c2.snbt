@@ -1,0 +1,29 @@
+{
+	x: 1.0d,
+	y: -1.0d,
+	text: [
+		"This book contains most of what you need to know about Materials &mand You&r and their stats and traits."
+	],
+	dependencies: [
+		"78a35f7f"
+	],
+	tasks: [{
+		uid: "7f7c80b8",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "tconstruct:book",
+			tag: {
+				mantle: {
+					book: {
+						page: ""
+					}
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,29 @@
+{
+	title: "Wildroot Growth",
+	icon: "roots:ritual_wild_growth",
+	x: -14.0d,
+	y: 0.0d,
+	text: [
+		"Plant Wildroot next to a Pyre and perform the Wildroot Growth ritual to grow it into a massive Wildwood tree."
+	],
+	dependencies: [
+		"a52ef06c"
+	],
+	tasks: [{
+		uid: "ddbe6344",
+		type: "item",
+		title: "Wildwood",
+		items: [{
+			item: "roots:wildwood_log"
+		},
+		{
+			item: "roots:bark_wildwood"
+		}]
+	}],
+	rewards: [{
+		uid: "8bb8ef00",
+		type: "item",
+		item: "roots:wildwood_sapling",
+		count: 4
+	}]
+}

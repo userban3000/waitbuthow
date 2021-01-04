@@ -1,0 +1,22 @@
+{
+	title: "&bFactorio",
+	icon: "thermalfoundation:material 1 256",
+	x: 8.0d,
+	y: 4.0d,
+	shape: "gear",
+	text: [
+		"Start a collect 'em all minor chapter with the final goal of having one of each Elite Factory!",
+		"",
+		"Unlocks the &6Factorio &fminor chapter."
+	],
+	dependencies: [
+		"0a05c484"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "526ea643",
+		type: "checkmark",
+		title: "Click here to begin your quest for the factories!",
+		icon: "thermalfoundation:material 1 264"
+	}]
+}

@@ -1,0 +1,214 @@
+{
+	title: "ebw_advanced",
+	loot_size: 1,
+	rewards: [{
+		item: "ebwizardry:spell_book 1 48"
+	},
+	{
+		item: "ebwizardry:spell_book 1 49"
+	},
+	{
+		item: "ebwizardry:spell_book 1 50"
+	},
+	{
+		item: "ebwizardry:spell_book 1 51"
+	},
+	{
+		item: "ebwizardry:spell_book 1 52"
+	},
+	{
+		item: "ebwizardry:spell_book 1 53"
+	},
+	{
+		item: "ebwizardry:spell_book 1 124"
+	},
+	{
+		item: "ebwizardry:spell_book 1 125"
+	},
+	{
+		item: "ebwizardry:spell_book 1 152"
+	},
+	{
+		item: "ebwizardry:spell_book 1 153"
+	},
+	{
+		item: "ebwizardry:spell_book 1 54"
+	},
+	{
+		item: "ebwizardry:spell_book 1 55"
+	},
+	{
+		item: "ebwizardry:spell_book 1 56"
+	},
+	{
+		item: "ebwizardry:spell_book 1 57"
+	},
+	{
+		item: "ebwizardry:spell_book 1 58"
+	},
+	{
+		item: "ebwizardry:spell_book 1 126"
+	},
+	{
+		item: "ebwizardry:spell_book 1 127"
+	},
+	{
+		item: "ebwizardry:spell_book 1 128"
+	},
+	{
+		item: "ebwizardry:spell_book 1 154"
+	},
+	{
+		item: "ebwizardry:spell_book 1 59"
+	},
+	{
+		item: "ebwizardry:spell_book 1 60"
+	},
+	{
+		item: "ebwizardry:spell_book 1 61"
+	},
+	{
+		item: "ebwizardry:spell_book 1 62"
+	},
+	{
+		item: "ebwizardry:spell_book 1 63"
+	},
+	{
+		item: "ebwizardry:spell_book 1 64"
+	},
+	{
+		item: "ebwizardry:spell_book 1 129"
+	},
+	{
+		item: "ebwizardry:spell_book 1 155"
+	},
+	{
+		item: "ebwizardry:spell_book 1 65"
+	},
+	{
+		item: "ebwizardry:spell_book 1 66"
+	},
+	{
+		item: "ebwizardry:spell_book 1 67"
+	},
+	{
+		item: "ebwizardry:spell_book 1 68"
+	},
+	{
+		item: "ebwizardry:spell_book 1 69"
+	},
+	{
+		item: "ebwizardry:spell_book 1 70"
+	},
+	{
+		item: "ebwizardry:spell_book 1 71"
+	},
+	{
+		item: "ebwizardry:spell_book 1 130"
+	},
+	{
+		item: "ebwizardry:spell_book 1 156"
+	},
+	{
+		item: "ebwizardry:spell_book 1 157"
+	},
+	{
+		item: "ebwizardry:spell_book 1 158"
+	},
+	{
+		item: "ebwizardry:spell_book 1 72"
+	},
+	{
+		item: "ebwizardry:spell_book 1 73"
+	},
+	{
+		item: "ebwizardry:spell_book 1 74"
+	},
+	{
+		item: "ebwizardry:spell_book 1 75"
+	},
+	{
+		item: "ebwizardry:spell_book 1 76"
+	},
+	{
+		item: "ebwizardry:spell_book 1 77"
+	},
+	{
+		item: "ebwizardry:spell_book 1 131"
+	},
+	{
+		item: "ebwizardry:spell_book 1 78"
+	},
+	{
+		item: "ebwizardry:spell_book 1 79"
+	},
+	{
+		item: "ebwizardry:spell_book 1 80"
+	},
+	{
+		item: "ebwizardry:spell_book 1 81"
+	},
+	{
+		item: "ebwizardry:spell_book 1 82"
+	},
+	{
+		item: "ebwizardry:spell_book 1 83"
+	},
+	{
+		item: "ebwizardry:spell_book 1 84"
+	},
+	{
+		item: "ebwizardry:spell_book 1 85"
+	},
+	{
+		item: "ebwizardry:spell_book 1 132"
+	},
+	{
+		item: "ebwizardry:spell_book 1 159"
+	},
+	{
+		item: "ebwizardry:spell_book 1 160"
+	},
+	{
+		item: "ebwizardry:spell_book 1 161"
+	},
+	{
+		item: "ebwizardry:spell_book 1 162"
+	},
+	{
+		item: "ebwizardry:spell_book 1 86"
+	},
+	{
+		item: "ebwizardry:spell_book 1 87"
+	},
+	{
+		item: "ebwizardry:spell_book 1 88"
+	},
+	{
+		item: "ebwizardry:spell_book 1 89"
+	},
+	{
+		item: "ebwizardry:spell_book 1 90"
+	},
+	{
+		item: "ebwizardry:spell_book 1 133"
+	},
+	{
+		item: "ebwizardry:spell_book 1 134"
+	},
+	{
+		item: "ebwizardry:spell_book 1 135"
+	},
+	{
+		item: "ebwizardry:spell_book 1 163"
+	},
+	{
+		item: "ebwizardry:spell_book 1 164"
+	},
+	{
+		item: "ebwizardry:spell_book 1 165"
+	},
+	{
+		item: "ebwizardry:spell_book 1 166"
+	}]
+}

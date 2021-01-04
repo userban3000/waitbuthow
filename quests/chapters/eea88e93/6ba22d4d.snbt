@@ -1,0 +1,38 @@
+{
+	x: -6.0d,
+	y: -1.0d,
+	text: [
+		"Drop a Hippogryph some Rabbit Legs and they'll be tamed!",
+		"",
+		"&7&oSoar the sky! But steer clear of other, larger, more dangerous sky soarers."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"73b4234f"
+	],
+	tasks: [{
+		uid: "1dd84064",
+		type: "advancement",
+		title: "Tame a Hippogryph!",
+		advancement: "iceandfire:iceandfire/tame_hippogryph",
+		criterion: ""
+	}],
+	rewards: [{
+		uid: "8fde30d8",
+		type: "item",
+		item: "minecraft:saddle"
+	},
+	{
+		uid: "680935f5",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {
+					AS_Amulet_HolderLeast: -6746512977385459564L,
+					AS_Amulet_HolderMost: -3225632190481938484L
+				}
+			},
+			id: "iceandfire:iron_hippogryph_armor"
+		}
+	}]
+}

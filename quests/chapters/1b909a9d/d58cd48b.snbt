@@ -1,0 +1,24 @@
+{
+	x: -4.5d,
+	y: -9.5d,
+	shape: "square",
+	dependencies: [
+		"6eecd04d"
+	],
+	tasks: [{
+		uid: "d1c87251",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "simplyjetpacks:itemjetpack",
+			tag: {
+				Energy: 0,
+				JetpackParticleType: 0
+			},
+			Damage: 17s
+		}],
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,27 @@
+{
+	x: -4.0d,
+	y: 0.0d,
+	text: [
+		"The Staff is one of the main toys in Roots' arsenal.",
+		"",
+		"You can cast a variety of rather strong spells, each with their own costs of plants harvested in your Roots playthrough.",
+		"",
+		"There's also a Time Stop spell.",
+		"&7&o?ZA WARUDO?"
+	],
+	dependencies: [
+		"830dc5e6"
+	],
+	tasks: [{
+		uid: "0cef3646",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "roots:staff"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

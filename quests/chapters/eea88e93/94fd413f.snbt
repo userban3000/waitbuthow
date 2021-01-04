@@ -1,0 +1,14 @@
+{
+	x: -4.5d,
+	y: 6.0d,
+	dependencies: [
+		"cc6e6a30"
+	],
+	tasks: [{
+		uid: "63b1ac42",
+		type: "item",
+		items: [{
+			item: "rats:rat_upgrade_elite_energy"
+		}]
+	}]
+}

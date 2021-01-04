@@ -1,0 +1,21 @@
+{
+	title: "Buffalo Dance",
+	icon: "totemic:buffalo_items",
+	x: 10.0d,
+	y: -1.0d,
+	text: [
+		"All you need is a Drum and a Wind Chime.",
+		"",
+		"Cows close to the Totem Pole will turn into Baby Buffalos. Their hide will be later used in crafting."
+	],
+	dependencies: [
+		"95bb8591"
+	],
+	tasks: [{
+		uid: "b96ec000",
+		type: "item",
+		items: [{
+			item: "totemic:buffalo_items"
+		}]
+	}]
+}

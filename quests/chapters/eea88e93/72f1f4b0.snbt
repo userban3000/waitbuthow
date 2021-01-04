@@ -1,0 +1,17 @@
+{
+	x: -1.0d,
+	y: 14.5d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"64f5d969",
+		"26323bd8"
+	],
+	hide: true,
+	tasks: [{
+		uid: "41fa88e0",
+		type: "item",
+		items: [{
+			item: "rats:rat_upgrade_tnt_survivor"
+		}]
+	}]
+}

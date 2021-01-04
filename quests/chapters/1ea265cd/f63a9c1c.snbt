@@ -1,0 +1,27 @@
+{
+	x: 9.5d,
+	y: -5.0d,
+	text: [
+		"The Digital Miner can be configured to mine everything in a given area.",
+		"",
+		"Usually this is set to ores, essentially mining a whole area clean of ores.",
+		"",
+		"&7&oWorks even better in the Beneath."
+	],
+	dependencies: [
+		"21127603",
+		"33c34394"
+	],
+	tasks: [{
+		uid: "45e0c4c6",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "mekanism:machineblock",
+			Damage: 4s
+		}],
+		ignore_nbt: 1b
+	}]
+}

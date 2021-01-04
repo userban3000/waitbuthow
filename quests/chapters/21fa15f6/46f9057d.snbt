@@ -1,0 +1,22 @@
+{
+	icon: "tconstruct:materials",
+	x: 8.5d,
+	y: 0.0d,
+	text: [
+		"Hand crafted tools are delightful, but Stone is brittle and Wood cracks easily.",
+		"",
+		"Applying the skills you learned on metal would probably prove fruitful.",
+		"",
+		"If only you found a way to get the metals hot enough to cast...",
+		"",
+		"&7&oThe answers hide elsewhere. Complete more of the pack and come back."
+	],
+	dependencies: [
+		"6b454ed5"
+	],
+	tasks: [{
+		uid: "5fb44687",
+		type: "checkmark",
+		title: "&bMetallurgy"
+	}]
+}

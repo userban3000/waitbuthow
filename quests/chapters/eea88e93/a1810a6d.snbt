@@ -1,0 +1,29 @@
+{
+	x: -4.0d,
+	y: -4.0d,
+	text: [
+		"Dragon Blood is extremely potent, enough so that dousing a Dragon Bone Sword in it infuses it with the power of the slain dragons."
+	],
+	dependencies: [
+		"41f30dee"
+	],
+	tasks: [{
+		uid: "76ea74e8",
+		type: "item",
+		title: "&6Flamed&f/&bIced &fDragon Bone Sword",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "iceandfire:dragonbone_sword_fire"
+		},
+		{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "iceandfire:dragonbone_sword_ice"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

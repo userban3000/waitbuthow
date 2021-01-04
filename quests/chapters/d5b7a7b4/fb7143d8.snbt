@@ -1,0 +1,28 @@
+{
+	x: 10.0d,
+	y: -6.0d,
+	dependencies: [
+		"d63243ef"
+	],
+	tasks: [{
+		uid: "1bd6bfa2",
+		type: "item",
+		items: [{
+			id: "naturesaura:aura_bottle",
+			tag: {
+				stored_type: "naturesaura:end"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "0b994d78",
+		type: "item",
+		item: {
+			id: "naturesaura:aura_bottle",
+			tag: {
+				stored_type: "naturesaura:end"
+			}
+		},
+		count: 4
+	}]
+}

@@ -1,0 +1,17 @@
+{
+	x: 24.5d,
+	y: 6.5d,
+	text: [
+		"The drop chance is only a small chance but you will need a fair few to progress further into the mod so get farming and make sure that you keep your &4LP&f network topped up."
+	],
+	dependencies: [
+		"c085098d"
+	],
+	tasks: [{
+		uid: "83137ee8",
+		type: "item",
+		items: [{
+			item: "bloodmagic:blood_shard"
+		}]
+	}]
+}

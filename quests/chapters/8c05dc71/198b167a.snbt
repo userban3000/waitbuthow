@@ -1,0 +1,25 @@
+{
+	title: "Reactant Dynamo",
+	x: 3.5d,
+	y: -7.5d,
+	text: [
+		"The Reactant Dynamo generates RF from various reactions. Check JEI for all of the combinations."
+	],
+	dependencies: [
+		"d657012b"
+	],
+	tasks: [{
+		uid: "e9c01bd4",
+		type: "item",
+		items: [{
+			id: "thermalexpansion:dynamo",
+			tag: {
+				RSControl: 0b,
+				Facing: 1b,
+				Energy: 0,
+				Level: 0b
+			},
+			Damage: 3s
+		}]
+	}]
+}

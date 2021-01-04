@@ -1,0 +1,20 @@
+{
+	x: 8.0d,
+	y: 0.0d,
+	text: [
+		"The Natural Altar is a multiblock structure that is, again, used for crafting.",
+		"",
+		"Check the Guide for a build guide."
+	],
+	dependencies: [
+		"3937bd4a",
+		"cc400432"
+	],
+	tasks: [{
+		uid: "f69f9f59",
+		type: "item",
+		items: [{
+			item: "naturesaura:nature_altar"
+		}]
+	}]
+}

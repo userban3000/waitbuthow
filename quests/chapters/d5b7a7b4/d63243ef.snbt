@@ -1,0 +1,28 @@
+{
+	x: 8.0d,
+	y: -4.0d,
+	dependencies: [
+		"2ae33343"
+	],
+	tasks: [{
+		uid: "ad4bfbb4",
+		type: "item",
+		items: [{
+			id: "naturesaura:aura_bottle",
+			tag: {
+				stored_type: "naturesaura:nether"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "5203d887",
+		type: "item",
+		item: {
+			id: "naturesaura:aura_bottle",
+			tag: {
+				stored_type: "naturesaura:nether"
+			}
+		},
+		count: 4
+	}]
+}

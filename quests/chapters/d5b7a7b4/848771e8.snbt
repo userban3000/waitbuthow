@@ -1,0 +1,24 @@
+{
+	x: -4.0d,
+	y: -2.0d,
+	text: [
+		"A far more convenient storage method for all your casting needs!",
+		"",
+		"Also doubles as a backpack."
+	],
+	dependencies: [
+		"d0829eb1"
+	],
+	tasks: [{
+		uid: "82206597",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "roots:component_pouch"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

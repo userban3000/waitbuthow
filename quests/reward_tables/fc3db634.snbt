@@ -1,0 +1,29 @@
+{
+	title: "iaf_scales_x32",
+	loot_size: 32,
+	hide_tooltip: true,
+	rewards: [{
+		item: "iceandfire:dragonscales_red"
+	},
+	{
+		item: "iceandfire:dragonscales_green"
+	},
+	{
+		item: "iceandfire:dragonscales_bronze"
+	},
+	{
+		item: "iceandfire:dragonscales_gray"
+	},
+	{
+		item: "iceandfire:dragonscales_blue"
+	},
+	{
+		item: "iceandfire:dragonscales_white"
+	},
+	{
+		item: "iceandfire:dragonscales_sapphire"
+	},
+	{
+		item: "iceandfire:dragonscales_silver"
+	}]
+}

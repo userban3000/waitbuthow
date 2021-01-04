@@ -1,0 +1,47 @@
+{
+	title: "Found one! And lived to tell the tale, too!",
+	disable_toast: true,
+	x: -4.0d,
+	y: -2.0d,
+	text: [
+		"Now that you've killed a dragon, you can don its skin as armour. This armour is quite resistant to dragons' own ice & fire breath attacks."
+	],
+	dependencies: [
+		"73b4234f"
+	],
+	tasks: [{
+		uid: "76a28010",
+		type: "item",
+		title: "Dragon Scales",
+		items: [{
+			item: "iceandfire:dragonscales_red"
+		},
+		{
+			item: "iceandfire:dragonscales_green"
+		},
+		{
+			item: "iceandfire:dragonscales_bronze"
+		},
+		{
+			item: "iceandfire:dragonscales_gray"
+		},
+		{
+			item: "iceandfire:dragonscales_blue"
+		},
+		{
+			item: "iceandfire:dragonscales_white"
+		},
+		{
+			item: "iceandfire:dragonscales_sapphire"
+		},
+		{
+			item: "iceandfire:dragonscales_silver"
+		}]
+	}],
+	rewards: [{
+		uid: "18ea0866",
+		type: "choice",
+		title: "&d32 Dragon Scales",
+		table: 7
+	}]
+}

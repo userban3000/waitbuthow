@@ -1,0 +1,70 @@
+{
+	title: "as_constellation_papers",
+	loot_size: 1,
+	hide_tooltip: true,
+	rewards: [{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "astralsorcery:itemconstellationpaper",
+			tag: {
+				astralsorcery: {
+					constellationName: "astralsorcery.constellation.discidia"
+				}
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "astralsorcery:itemconstellationpaper",
+			tag: {
+				astralsorcery: {
+					constellationName: "astralsorcery.constellation.armara"
+				}
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "astralsorcery:itemconstellationpaper",
+			tag: {
+				astralsorcery: {
+					constellationName: "astralsorcery.constellation.vicio"
+				}
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "astralsorcery:itemconstellationpaper",
+			tag: {
+				astralsorcery: {
+					constellationName: "astralsorcery.constellation.aevitas"
+				}
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "astralsorcery:itemconstellationpaper",
+			tag: {
+				astralsorcery: {
+					constellationName: "astralsorcery.constellation.evorsio"
+				}
+			}
+		}
+	}]
+}

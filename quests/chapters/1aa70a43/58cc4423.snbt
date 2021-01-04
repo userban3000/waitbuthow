@@ -1,0 +1,25 @@
+{
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {
+				AS_Amulet_HolderLeast: -6746512977385459564L,
+				AS_Amulet_HolderMost: -3225632190481938484L
+			}
+		},
+		id: "ftbquests:custom_icon",
+		tag: {
+			icon: "assets:q/ex.png"
+		}
+	},
+	x: 6.0d,
+	y: -2.0d,
+	shape: "gear",
+	text: [
+		"Familiar with the pack or just don't care? Just sign here, here and here and we can begin."
+	],
+	tasks: [{
+		uid: "0a9da197",
+		type: "checkmark",
+		title: "&bI Know What I'm Doing!"
+	}]
+}

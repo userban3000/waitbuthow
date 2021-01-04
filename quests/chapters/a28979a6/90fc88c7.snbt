@@ -1,0 +1,25 @@
+{
+	x: 38.0d,
+	y: 0.5d,
+	text: [
+		"While Training Bracelets are your inventory they will \"lock\" your living armor to only acquire and level the traits of which you have the bracelets for."
+	],
+	dependencies: [
+		"eb01bab9"
+	],
+	tasks: [{
+		uid: "8fb58c66",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {
+					AS_Amulet_HolderLeast: -6746512977385459564L,
+					AS_Amulet_HolderMost: -3225632190481938484L
+				}
+			},
+			id: "bloodmagic:upgrade_trainer"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

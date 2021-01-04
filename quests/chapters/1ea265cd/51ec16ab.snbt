@@ -1,0 +1,25 @@
+{
+	x: -7.0d,
+	y: 1.5d,
+	text: [
+		"You can connect machines by chaining them up next to each other but sooner or later you'll need to distance them a bit.",
+		"",
+		"Cables freely transmit information & items through the network."
+	],
+	dependencies: [
+		"098b8148"
+	],
+	tasks: [{
+		uid: "3bbeb6d4",
+		type: "item",
+		items: [{
+			item: "refinedstorage:cable"
+		}]
+	}],
+	rewards: [{
+		uid: "0ef533fc",
+		type: "item",
+		item: "refinedstorage:cable",
+		count: 16
+	}]
+}

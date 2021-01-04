@@ -1,0 +1,29 @@
+{
+	x: 7.0d,
+	y: 4.0d,
+	text: [
+		"Imperfect Rituals are simple but powerful. They have simple requirements and only need to be right clicked with an empty hand.",
+		"",
+		"Here's a list of Imperfect Rituals. This will be moved to the Guides in the future.",
+		"",
+		"&lBedrock Ritual: &rGain Resistance II",
+		"&lCoal Ritual: &rSummon a Zombie with Strength",
+		"&lLapis Lazuli Ritual: &rChange day to night",
+		"&lWater Ritual: &rStart a storm"
+	],
+	dependencies: [
+		"fb1a52c5"
+	],
+	tasks: [{
+		uid: "660507c0",
+		type: "item",
+		items: [{
+			item: "bloodmagic:ritual_controller 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "05a84f53",
+		type: "item",
+		item: "bloodmagic:ritual_controller 1 1"
+	}]
+}

@@ -1,0 +1,31 @@
+{
+	title: "&bFlux Infused JetPlate",
+	x: 0.0d,
+	y: -7.0d,
+	shape: "gear",
+	text: [
+		"50M RF at 850RF/t.",
+		"",
+		"&7&oOvertuned."
+	],
+	dependencies: [
+		"6eecd04d"
+	],
+	size: 2.5d,
+	tasks: [{
+		uid: "c669ff44",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "simplyjetpacks:itemjetpack",
+			tag: {
+				Energy: 0,
+				JetpackParticleType: 0
+			},
+			Damage: 18s
+		}],
+		ignore_nbt: 1b
+	}]
+}

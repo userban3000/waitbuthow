@@ -1,0 +1,48 @@
+{
+	title: "Nuclear Fission",
+	x: 2.0d,
+	y: -8.0d,
+	text: [
+		"Massive RF generator, where how and where you build them actually matters!",
+		"",
+		"They're radioactive so you'll have to take care of that and mismanaging the reactor will make it explode and irradiate a massive area.",
+		"",
+		"But build them right and you'll be rewarded with massive amounts of RF."
+	],
+	dependencies: [
+		"ca70e4ac",
+		"4fabcb91",
+		"88ceaaa9"
+	],
+	tasks: [{
+		uid: "da3896f2",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:fission_controller_new_fixed"
+		}]
+	},
+	{
+		uid: "1194de2a",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:fission_block"
+		},
+		{
+			item: "nuclearcraft:reactor_casing_transparent"
+		}]
+	},
+	{
+		uid: "bf6ca44c",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:fission_port"
+		}]
+	},
+	{
+		uid: "c4d79908",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:cell_block"
+		}]
+	}]
+}

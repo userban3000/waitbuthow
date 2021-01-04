@@ -1,0 +1,25 @@
+{
+	x: 8.0d,
+	y: -1.5d,
+	text: [
+		"Used to make Refined Obsidian and Glowstone Ingots."
+	],
+	dependencies: [
+		"0a05c484"
+	],
+	tasks: [{
+		uid: "41f646cf",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "mekanism:machineblock",
+			tag: {
+				mekData: {}
+			},
+			Damage: 1s
+		}],
+		ignore_nbt: 1b
+	}]
+}

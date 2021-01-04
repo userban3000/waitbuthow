@@ -1,0 +1,26 @@
+{
+	title: "iaf_seaserp_scales",
+	loot_size: 32,
+	hide_tooltip: true,
+	rewards: [{
+		item: "iceandfire:sea_serpent_scales_blue"
+	},
+	{
+		item: "iceandfire:sea_serpent_scales_bronze"
+	},
+	{
+		item: "iceandfire:sea_serpent_scales_deepblue"
+	},
+	{
+		item: "iceandfire:sea_serpent_scales_green"
+	},
+	{
+		item: "iceandfire:sea_serpent_scales_purple"
+	},
+	{
+		item: "iceandfire:sea_serpent_scales_red"
+	},
+	{
+		item: "iceandfire:sea_serpent_scales_teal"
+	}]
+}

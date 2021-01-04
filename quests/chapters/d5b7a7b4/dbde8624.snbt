@@ -1,0 +1,34 @@
+{
+	title: "Sylvan Harvest",
+	x: -14.0d,
+	y: 6.0d,
+	text: [
+		"Crops long lost along with the druidic arts of old.",
+		"",
+		"&7&oWhere have they been hiding?"
+	],
+	dependencies: [
+		"53ada86e"
+	],
+	tasks: [{
+		uid: "9cea8b89",
+		type: "item",
+		items: [{
+			item: "roots:wildewheet"
+		}]
+	},
+	{
+		uid: "faec260f",
+		type: "item",
+		items: [{
+			item: "roots:spirit_herb"
+		}]
+	},
+	{
+		uid: "5a44d40d",
+		type: "item",
+		items: [{
+			item: "mysticalworld:aubergine"
+		}]
+	}]
+}

@@ -1,0 +1,37 @@
+{
+	title: "Totem Whittling Knife",
+	x: 2.0d,
+	y: 0.0d,
+	text: [
+		"The Totem Whittling Knife is used to build Totems.",
+		"",
+		"Shift+Right Click the Knife to cycle through Totems.",
+		"",
+		"Build a Wood Log pillar and make the bottom a Base (using the knife). Then add any animal heads for various passive buffs."
+	],
+	dependencies: [
+		"fa4f45f1"
+	],
+	tasks: [{
+		uid: "ef796aad",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "totemic:totem_whittling_knife"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "467f8282",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "totemic:tipi"
+		}
+	}]
+}

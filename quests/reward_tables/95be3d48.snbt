@@ -1,0 +1,21 @@
+{
+	title: "iaf_dragon_crystals",
+	loot_size: 1,
+	hide_tooltip: true,
+	rewards: [{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "iceandfire:summoning_crystal_fire"
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "iceandfire:summoning_crystal_ice"
+		}
+	}]
+}

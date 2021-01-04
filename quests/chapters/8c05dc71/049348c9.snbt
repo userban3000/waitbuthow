@@ -1,0 +1,24 @@
+{
+	x: -6.0d,
+	y: 5.0d,
+	shape: "hexagon",
+	text: [
+		"Enderium-based Fluxducts running at 25kRF/t!"
+	],
+	dependencies: [
+		"5073a715"
+	],
+	tasks: [{
+		uid: "3d4ddc69",
+		type: "item",
+		items: [{
+			item: "thermaldynamics:duct_0 1 4"
+		}]
+	}],
+	rewards: [{
+		uid: "297548c2",
+		type: "item",
+		item: "thermaldynamics:duct_0 1 4",
+		count: 15
+	}]
+}

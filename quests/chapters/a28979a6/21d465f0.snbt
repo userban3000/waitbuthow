@@ -1,0 +1,24 @@
+{
+	x: 20.5d,
+	y: 4.0d,
+	text: [
+		"Releasing Will into the aura and figuring out what aura has Will can be a tricky process if your crucible gets moved or destroyed.",
+		"",
+		"The Demon Will Aura Gauge will show you how much of each kind of Will is in your chunk's Aura."
+	],
+	dependencies: [
+		"6968416b"
+	],
+	tasks: [{
+		uid: "757ee2a3",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "bloodmagic:demon_will_gauge"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

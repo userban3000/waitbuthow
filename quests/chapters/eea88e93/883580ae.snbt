@@ -1,0 +1,16 @@
+{
+	x: -7.5d,
+	y: 12.5d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"20f8145b"
+	],
+	hide: true,
+	tasks: [{
+		uid: "cfa9881f",
+		type: "item",
+		items: [{
+			item: "rats:rat_upgrade_voodoo"
+		}]
+	}]
+}

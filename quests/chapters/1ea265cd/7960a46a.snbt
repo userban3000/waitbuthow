@@ -1,0 +1,37 @@
+{
+	title: "&dBeneath it All",
+	icon: "beneath:teleporterbeneath",
+	x: 0.0d,
+	y: 2.0d,
+	text: [
+		"Delve deeper.",
+		"",
+		"The Beneath is a massive cave system that rests below bedrock.",
+		"",
+		"Find and gather &dNuclearCraft &fores, alongside an abundance of all the other ores.",
+		"",
+		"&0Fear&k   &r&0the&k   &r&0dark."
+	],
+	dependencies: [
+		"9ff36fa2"
+	],
+	hide: true,
+	tasks: [{
+		uid: "0f9a3fcb",
+		type: "item",
+		items: [{
+			item: "beneath:teleporterbeneath"
+		}]
+	},
+	{
+		uid: "c7c53fbc",
+		type: "dimension",
+		dim: 10
+	}],
+	rewards: [{
+		uid: "6757135c",
+		type: "item",
+		item: "minecraft:torch",
+		count: 16
+	}]
+}

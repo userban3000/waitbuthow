@@ -1,0 +1,21 @@
+{
+	x: 4.0d,
+	y: -1.0d,
+	text: [
+		"The Hellfire Forge will be used a lot in crafting.",
+		"",
+		"The 4 outer slots on the left are inputs, while the one in the middle of the circle is the output. The bar on the right is the Demonic Will storage, and you can think of the rightmost slot as a fuel slot (where you'll place Demonic Will).",
+		"",
+		"JEI shows two Will values: minimum and drained. Think of them as requirement and cost. The crafting won't complete if you don't have the minimum amount, but if it does, will only use up the drained amount."
+	],
+	dependencies: [
+		"f38a5e49"
+	],
+	tasks: [{
+		uid: "7a8fef68",
+		type: "item",
+		items: [{
+			item: "bloodmagic:soul_forge"
+		}]
+	}]
+}

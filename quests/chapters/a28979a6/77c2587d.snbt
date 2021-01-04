@@ -1,0 +1,25 @@
+{
+	x: -11.0d,
+	y: -2.5d,
+	text: [
+		"Yes, it's a grappling hook wand. Go crazy."
+	],
+	dependencies: [
+		"695979e2"
+	],
+	tasks: [{
+		uid: "160018e6",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {
+					AS_Amulet_HolderLeast: -6746512977385459564L,
+					AS_Amulet_HolderMost: -3225632190481938484L
+				}
+			},
+			id: "astralsorcery:itemgrapplewand"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,65 @@
+{
+	title: "Gating & Progression",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {
+				AS_Amulet_HolderLeast: -6746512977385459564L,
+				AS_Amulet_HolderMost: -3225632190481938484L
+			}
+		},
+		id: "ftbquests:custom_icon",
+		tag: {
+			icon: "assets:q/door.png"
+		}
+	},
+	x: 4.0d,
+	y: 0.0d,
+	text: [
+		"The &6Progression Tree &fChapter will be your friend throughout the pack. Here you'll unlock every Chapter in order to progress, so you'll probably refer back to it often.",
+		"",
+		"You pretty much can't do anything in mods you haven't reached the right Chapter for, so I've listed them here for convenience.",
+		"",
+		"&b&lTechnology",
+		"",
+		"&6Thermally Expanding",
+		"&dThermal Expansion",
+		"",
+		"&6Digital Era",
+		"&dRefined Storage",
+		"&dMekanism",
+		"&dNuclearCraft",
+		"",
+		"&6Nanobots & Simulations",
+		"&dRF Tools",
+		"&dDeep Mob Learning",
+		"",
+		"&b&lAdventure",
+		"",
+		"&6The B-Roll",
+		"&dRustic",
+		"&dIce & Fire",
+		"&dRats",
+		"&dElectroblob's Wizardry",
+		"",
+		"&b&lMagic",
+		"",
+		"&6Ceremonies in the Woods",
+		"&dTotemic",
+		"",
+		"&6Sylvan Arts",
+		"&dRoots",
+		"&dNature's Aura",
+		"",
+		"&6Forged in Light, Hardened in Blood",
+		"&dAstral Sorcery",
+		"&dBlood Magic"
+	],
+	dependencies: [
+		"1fc8ff3d"
+	],
+	tasks: [{
+		uid: "e2b7d412",
+		type: "checkmark",
+		title: "Click here to move on"
+	}]
+}

@@ -1,0 +1,19 @@
+{
+	title: "&6Tinkering",
+	icon: {
+		id: "tconstruct:toolforge",
+		tag: {
+			textureBlock: {
+				id: "tconstruct:metal",
+				Count: 1b,
+				Damage: 2s
+			}
+		}
+	},
+	description: [
+		"Minor chapter. Unlocked from the start."
+	],
+	always_invisible: false,
+	group: -1441500211,
+	default_quest_shape: ""
+}

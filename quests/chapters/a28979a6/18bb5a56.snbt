@@ -1,0 +1,27 @@
+{
+	x: -6.0d,
+	y: 4.0d,
+	text: [
+		"Drop some wood in Starlight to get Infused Wood, which has both decorative and crafting purposes.",
+		"",
+		"&7&oWhy does dropping it in literal liquid stars make it darker?"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"a505cfe7"
+	],
+	hide: true,
+	tasks: [{
+		uid: "fc6e6c95",
+		type: "item",
+		items: [{
+			item: "astralsorcery:blockinfusedwood"
+		}]
+	}],
+	rewards: [{
+		uid: "34d4c427",
+		type: "item",
+		item: "astralsorcery:blockinfusedwood",
+		count: 32
+	}]
+}

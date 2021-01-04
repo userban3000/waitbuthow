@@ -1,0 +1,26 @@
+{
+	title: "as_lens",
+	loot_size: 1,
+	hide_tooltip: true,
+	rewards: [{
+		item: "astralsorcery:itemcoloredlens"
+	},
+	{
+		item: "astralsorcery:itemcoloredlens 1 1"
+	},
+	{
+		item: "astralsorcery:itemcoloredlens 1 2"
+	},
+	{
+		item: "astralsorcery:itemcoloredlens 1 3"
+	},
+	{
+		item: "astralsorcery:itemcoloredlens 1 4"
+	},
+	{
+		item: "astralsorcery:itemcoloredlens 1 5"
+	},
+	{
+		item: "astralsorcery:itemcoloredlens 1 6"
+	}]
+}
