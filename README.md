@@ -4,11 +4,11 @@
 
 A modpack for Minecraft 1.12.2
 
-Available at https://www.curseforge.com/minecraft/modpacks/waitbuthow
+Available now at https://www.curseforge.com/minecraft/modpacks/waitbuthow
 
 
 
-From curseforge:
+Description from curseforge:
 
 *Ever wanted a guided experience through modded Minecraft but had no idea where to start? Expert packs too difficult? Getting easily lost in kitchen sinks? We've got you covered! Welcome to waitbuthow.*
 
