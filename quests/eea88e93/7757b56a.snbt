@@ -1,0 +1,32 @@
+{
+	title: "&bDragonsteel Swords",
+	x: -10.0d,
+	y: -3.0d,
+	shape: "diamond",
+	text: [
+		"Forged of the strongest and sharpest steel there is, their damage accurately reflects their sturdy build."
+	],
+	dependencies: [
+		"1baed465"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "3de2ce35",
+		type: "item",
+		title: "Dragonsteel Sword",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "iceandfire:dragonsteel_fire_sword"
+		},
+		{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "iceandfire:dragonsteel_ice_sword"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

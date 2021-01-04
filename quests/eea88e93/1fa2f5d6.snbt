@@ -1,0 +1,35 @@
+{
+	title: "&dThe Deleted Bar Scene",
+	x: 0.0d,
+	y: -3.0d,
+	dependencies: [
+		"56087765"
+	],
+	hide: true,
+	tasks: [{
+		uid: "dfdb8ad3",
+		type: "item",
+		title: "Rustic Agriculture",
+		items: [{
+			item: "rustic:olives"
+		},
+		{
+			item: "rustic:tomato"
+		},
+		{
+			item: "rustic:chili_pepper"
+		},
+		{
+			item: "rustic:wildberries"
+		},
+		{
+			item: "rustic:grapes"
+		},
+		{
+			item: "rustic:ironberries"
+		},
+		{
+			item: "rustic:aloe_vera"
+		}]
+	}]
+}

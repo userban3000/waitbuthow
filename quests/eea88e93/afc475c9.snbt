@@ -1,0 +1,60 @@
+{
+	title: "Young Wizard in Training",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "ebwizardry:magic_wand"
+	},
+	x: 5.0d,
+	y: -1.5d,
+	text: [
+		"The Arcane Workbench will be used throughout your playthrough to upgrade and modify the wand, as well as changing what spells you can cast from it.",
+		"",
+		"Wand goes in the middle, spell books all around it, Mana Crystals in the bottom left and upgrades in the upper right!",
+		"",
+		"There's no real end goal here, just have fun!"
+	],
+	dependencies: [
+		"46fb9960"
+	],
+	tasks: [{
+		uid: "4f8832f8",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "ebwizardry:magic_wand"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "536cd07f",
+		type: "item",
+		items: [{
+			item: "ebwizardry:arcane_workbench"
+		}]
+	},
+	{
+		uid: "750c607b",
+		type: "item",
+		title: "Spell Book - Magic Missile",
+		items: [{
+			item: "ebwizardry:spell_book 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "eee8aaa6",
+		type: "loot",
+		title: "&dRandom Trinket",
+		table: 5
+	},
+	{
+		uid: "3324977b",
+		type: "loot",
+		title: "&dRandom Wand Upgrade",
+		table: 6
+	}]
+}

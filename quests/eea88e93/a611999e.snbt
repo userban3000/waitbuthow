@@ -1,0 +1,20 @@
+{
+	x: 0.0d,
+	y: 5.0d,
+	text: [
+		"Rats are terrified of you so they'll run whenever you try to approach them. Get them to an &cUNESCAPABLE RAT CAPTURE STATION&f, also known as a two block deep hole and feed them some Cheese by throwing it on the ground.",
+		"",
+		"&7&oMaybe they're not such pests... perhaps a small bribe in the form of Cheese will help?"
+	],
+	dependencies: [
+		"a039e868"
+	],
+	tasks: [{
+		uid: "c571efbd",
+		type: "advancement",
+		title: "Rather than killing them...",
+		icon: "rftools:regeneration_module",
+		advancement: "rats:rats/tame_rat",
+		criterion: ""
+	}]
+}

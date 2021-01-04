@@ -1,0 +1,31 @@
+{
+	title: "&dThe Wizard Subplot",
+	x: 3.0d,
+	y: 0.0d,
+	text: [
+		"&dElectroblob's Wizardry &flets you be a cunning wizard, with a twist! You don't have to have any idea what you're doing!",
+		"",
+		"Find Spell Books in the world and place them on your Wand!",
+		"",
+		"Spells range from mildly powerful to devastating, so go crazy!",
+		"",
+		"&7&oThe waitbuthow team does not offer refunds for any damaged property or loved ones during spellcasting."
+	],
+	dependencies: [
+		"56087765"
+	],
+	hide: true,
+	tasks: [{
+		uid: "208dd5bd",
+		type: "item",
+		items: [{
+			item: "ebwizardry:magic_crystal"
+		}]
+	}],
+	rewards: [{
+		uid: "4b081815",
+		type: "item",
+		item: "ebwizardry:magic_crystal",
+		count: 32
+	}]
+}

@@ -1,0 +1,71 @@
+{
+	title: "&dThe Over The Top CGI Scene",
+	x: -3.0d,
+	y: 0.0d,
+	text: [
+		"Scouring the world, you'll probably come across Dragon skeletons.",
+		"",
+		"Right click them repeatedly to make them drop all their bones and their skull.",
+		"",
+		"Note that the Dragons' hitbox is actually rather small and at their center. This counts for living Dragons too.",
+		"",
+		"Once you complete this Quest, the following mobs will start spawning: Sea Serpents, Hippogryphs, Hippocampi, Cockatrices, Deathworms and Stymphalian Birds.",
+		"",
+		"&7&oDespite the grizzly sight, a dead dragon is always prefered in place of a live one."
+	],
+	dependencies: [
+		"56087765"
+	],
+	hide: true,
+	tasks: [{
+		uid: "f7e8e5d2",
+		type: "item",
+		title: "Dragon Skull",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "iceandfire:dragon_skull"
+		},
+		{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "iceandfire:dragon_skull",
+			tag: {
+				Stage: 4,
+				DragonAge: 75
+			},
+			Damage: 1s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "21dd7f71",
+		type: "item",
+		item: "iceandfire:lectern"
+	},
+	{
+		uid: "b4fe48c2",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "iceandfire:bestiary"
+		}
+	},
+	{
+		uid: "c3ecfc07",
+		type: "gamestage",
+		title: "&6Dragonry",
+		icon: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "iceandfire:dragonarmor_silver"
+		},
+		auto: "no_toast",
+		stage: "Dragonry"
+	}]
+}

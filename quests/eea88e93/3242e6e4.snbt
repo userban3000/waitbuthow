@@ -1,0 +1,18 @@
+{
+	x: -7.0d,
+	y: 1.5d,
+	text: [
+		"Drop Cake next to a Pixie and be best friends forever!"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"73b4234f"
+	],
+	tasks: [{
+		uid: "3ebef961",
+		type: "advancement",
+		title: "Befriend the Pixies!",
+		advancement: "iceandfire:iceandfire/tame_pixie",
+		criterion: ""
+	}]
+}

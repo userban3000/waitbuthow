@@ -1,0 +1,17 @@
+{
+	x: -1.5d,
+	y: -4.0d,
+	text: [
+		"The Crushing Tub is used for crushing crops into liquid forms that can be later fermented into alcoholic beverages."
+	],
+	dependencies: [
+		"1fa2f5d6"
+	],
+	tasks: [{
+		uid: "0cbedecb",
+		type: "item",
+		items: [{
+			item: "rustic:crushing_tub"
+		}]
+	}]
+}

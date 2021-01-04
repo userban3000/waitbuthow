@@ -1,0 +1,26 @@
+{
+	x: -9.5d,
+	y: 0.0d,
+	text: [
+		"Bloodthirsty birds with metallic feathers.",
+		"",
+		"&7&oThat's actually metal."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"73b4234f"
+	],
+	tasks: [{
+		uid: "376914af",
+		type: "advancement",
+		title: "Kill a Stymphalian Bird!",
+		advancement: "iceandfire:iceandfire/kill_stymphalian_bird",
+		criterion: ""
+	}],
+	rewards: [{
+		uid: "91eed416",
+		type: "item",
+		item: "iceandfire:stymphalian_bird_feather",
+		count: 4
+	}]
+}

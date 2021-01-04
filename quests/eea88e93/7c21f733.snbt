@@ -1,0 +1,27 @@
+{
+	x: -9.5d,
+	y: 1.0d,
+	text: [
+		"Formidable aquatic warriors, likely to prove a challenge to kill.",
+		"",
+		"&7&oSteel can't beat millions of years of evolution. Right?"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"73b4234f"
+	],
+	tasks: [{
+		uid: "4eaa5738",
+		type: "advancement",
+		title: "Kill a Sea Serpent!",
+		advancement: "iceandfire:iceandfire/kill_sea_serpent",
+		criterion: ""
+	}],
+	rewards: [{
+		uid: "03263724",
+		type: "choice",
+		title: "32 Sea Serpent Scales of any color",
+		icon: "iceandfire:sea_serpent_scales_red",
+		table: 9
+	}]
+}
