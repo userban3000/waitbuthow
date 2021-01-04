@@ -1,0 +1,30 @@
+{
+	x: -1.0d,
+	y: 3.5d,
+	text: [
+		"The Tool Forge is a direct upgrade of the Tool Station, allowing you to make far more tools & weapons.",
+		"",
+		"The Tool Forge requires 4 blocks of the same metal on the sides. It doesn't have to be Manyullyn.",
+		"",
+		"&7&oWe just thought the purple looked cool."
+	],
+	dependencies: [
+		"4bb4bb21"
+	],
+	tasks: [{
+		uid: "4470b62a",
+		type: "item",
+		title: "Any Tool Forge",
+		items: [{
+			id: "tconstruct:toolforge",
+			tag: {
+				textureBlock: {
+					id: "tconstruct:metal",
+					Count: 1b,
+					Damage: 2s
+				}
+			}
+		}],
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,53 @@
+{
+	title: "&6Digital Era",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "refinedstorage:fluid_storage_disk",
+		Damage: 3s
+	},
+	disable_toast: true,
+	x: -17.5d,
+	y: 0.0d,
+	shape: "gear",
+	text: [
+		"Begin digitalizing your operations! Store everything in the cloud, automate production of any items and build a 5x ore to ingot processing station!",
+		"",
+		"Access the Beneath and find new ores to start building nuclear reactors!",
+		"",
+		"Features &dRefined Storage&f, &dNuclearCraft&f and &dMekanism&f.",
+		"",
+		"You must complete the quest &bFully Thermally Expanded &fbefore starting this chapter."
+	],
+	dependencies: [
+		"2f2d6c0f",
+		"e38ce9e2"
+	],
+	size: 3.0d,
+	tasks: [{
+		uid: "cf9159fd",
+		type: "checkmark",
+		title: "Advance into the &6Digital Era&f!"
+	}],
+	rewards: [{
+		uid: "a399e4ad",
+		type: "gamestage",
+		title: "Chapter Unlock: &6Digital Era",
+		icon: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "refinedstorage:fluid_storage_disk",
+			Damage: 3s
+		},
+		auto: "no_toast",
+		stage: "Digital Era"
+	},
+	{
+		uid: "342310ff",
+		type: "command",
+		auto: "invisible",
+		command: "/tellraw @p [\"\",{\"text\":\"You can now find Osmium Ore.\",\"bold\":true,\"color\":\"gold\"}]"
+	}]
+}

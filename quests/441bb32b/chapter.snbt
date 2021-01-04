@@ -1,0 +1,10 @@
+{
+	title: "&6Factorio",
+	icon: "thermalfoundation:material 1 256",
+	description: [
+		"Minor chapter. Unlocked in &6Digital Era&7."
+	],
+	always_invisible: false,
+	group: -1279017200,
+	default_quest_shape: ""
+}

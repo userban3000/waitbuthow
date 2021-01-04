@@ -1,0 +1,16 @@
+{
+	title: "&dFairy Dust",
+	x: 0.0d,
+	y: 0.0d,
+	dependencies: [
+		"b7c5cb3c"
+	],
+	hide: true,
+	tasks: [{
+		uid: "75b8fb20",
+		type: "item",
+		items: [{
+			item: "wings:fairy_dust"
+		}]
+	}]
+}

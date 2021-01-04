@@ -1,0 +1,17 @@
+{
+	x: 2.5d,
+	y: 2.0d,
+	text: [
+		"The brain of the Smeltery, this is where you'll handle all the melting and liquids. Click a liquid to send it to the bottom, so it will be the first to flow out."
+	],
+	dependencies: [
+		"4bb4bb21"
+	],
+	tasks: [{
+		uid: "6102ee2b",
+		type: "item",
+		items: [{
+			item: "tconstruct:smeltery_controller"
+		}]
+	}]
+}

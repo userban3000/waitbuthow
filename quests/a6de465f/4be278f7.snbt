@@ -1,0 +1,48 @@
+{
+	title: "&6Nanobots & Simulations",
+	x: -21.0d,
+	y: -7.5d,
+	shape: "gear",
+	text: [
+		"Go beyond reality and fully embrace your simulated world as the boundaries begin to fade!",
+		"",
+		"Edit your world, keep an eye on everything that moves from a command center and simulate mobs and materialize their drops! ",
+		"",
+		"Features &dRFTools&f and &dDeep Mob Learning&f.",
+		"",
+		"You must complete the following quests to unlock this stage:",
+		"&bFully Powered Automation",
+		"&bSplit the Atom",
+		"&bAll-In-One World Remover",
+		"&bTriplicity",
+		"&fThey are part of the &6Digital Era &fchapter."
+	],
+	dependencies: [
+		"9ff36fa2",
+		"d1125643",
+		"972b8011",
+		"a13d2fc7",
+		"d93bb1ee"
+	],
+	size: 3.0d,
+	tasks: [{
+		uid: "7fbc192e",
+		type: "checkmark",
+		title: "Enter the world of &6Nanobots & Simulations&f!",
+		icon: "deepmoblearning:glitch_infused_ingot"
+	}],
+	rewards: [{
+		uid: "8cb02ba8",
+		type: "gamestage",
+		title: "Chapter Unlock: &6Nanobots & Simulations",
+		icon: "deepmoblearning:glitch_infused_ingot",
+		auto: "no_toast",
+		stage: "Nanobots & Simulations"
+	},
+	{
+		uid: "576704f3",
+		type: "command",
+		auto: "invisible",
+		command: "/tellraw @p [\"\",{\"text\":\"You can now find Iridium Ore.\",\"bold\":true,\"color\":\"gold\"}]"
+	}]
+}
