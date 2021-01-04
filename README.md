@@ -1,5 +1,7 @@
 # waitbuthow
 
+![waitbuthow](https://i.ibb.co/dppY5gs/wbh-quest-logo.png)
+
 A modpack for Minecraft 1.12.2
 
 Available at https://www.curseforge.com/minecraft/modpacks/waitbuthow
