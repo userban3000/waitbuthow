@@ -1,0 +1,32 @@
+{
+	title: "Evershifting Fountain & Neromantic Prime",
+	x: -23.0d,
+	y: -2.0d,
+	text: [
+		"The Evershifting Fountain is made up of four parts. The idea behind it is that the Fountain will extract liquids from below bedrock. These liquids are not infinite so you have to move the Fountain to drain other liquids from other places.",
+		"",
+		"You will need an Ichosic Resonator to find what chunks contain what liquids. Hold it while travelling and you will see particles.",
+		"&oWhen you sneak-click the Ichosic Resonator it will act like a Fosic Resonator.&f",
+		"",
+		"To finish off the Fountain you will need a Chalice on top of it and a Neromantic Prime on the bottom of the Fountain. Add Starlight to the Chalice to turn on the Fountain.",
+		"",
+		"Before fully starting the Fountain you want to add a few Chalices around the Fountain to collect the water or lava below bedrock."
+	],
+	dependencies: [
+		"7a98f9ba"
+	],
+	tasks: [{
+		uid: "cb4884fe",
+		type: "item",
+		items: [{
+			item: "astralsorcery:blockbore"
+		}]
+	},
+	{
+		uid: "f6f07eeb",
+		type: "item",
+		items: [{
+			item: "astralsorcery:blockborehead"
+		}]
+	}]
+}

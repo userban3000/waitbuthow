@@ -1,0 +1,25 @@
+{
+	x: -4.5d,
+	y: 1.0d,
+	text: [
+		"Use your new Resonating Wand to craft a Luminous Crafting Table.",
+		"",
+		"Unlike a regular crafting table, you don't get the output directly. Instead, exit the Luminous Crafting Table and right click it with your Resonating Wand.",
+		"",
+		"If enough Starlight is present, star beams will appear above the table and the result will pop out."
+	],
+	dependencies: [
+		"61b85f77"
+	],
+	tasks: [{
+		uid: "49563b45",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "astralsorcery:blockaltar"
+		}],
+		ignore_nbt: 1b
+	}]
+}

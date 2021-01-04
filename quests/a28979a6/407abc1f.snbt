@@ -1,0 +1,25 @@
+{
+	title: "Ritual Anchors",
+	x: -20.0d,
+	y: 2.0d,
+	text: [
+		"A pair of Ritual Anchors will enable you to move the area of effect of your Pedestal’s ritual. An example would be if you wanted to have Aevitas above your home, far away from your Pedestal.",
+		"",
+		"First you must place your desired Attuned Rock Crystal into the Pedestal. Then you need to place a Ritual Anchor five blocks above the Pedestal.",
+		"",
+		"When the second anchor is placed in a remote location, bind both of the Anchors and you will notice that the ritual effect works in the second location.",
+		"",
+		"You must keep the Linking Tool in you hand while binding these (don't change to another item)."
+	],
+	dependencies: [
+		"8b00de84"
+	],
+	tasks: [{
+		uid: "0b841bf6",
+		type: "item",
+		items: [{
+			item: "astralsorcery:blockrituallink"
+		}],
+		count: 2L
+	}]
+}

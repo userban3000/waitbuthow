@@ -1,0 +1,21 @@
+{
+	x: 22.5d,
+	y: 4.0d,
+	text: [
+		"Needed for Bound Tools and Weapons, and for Living Armor.",
+		"",
+		"Again, Blood Magic's &cLiving&f isn't the same as Roots' &aLiving&f.",
+		"",
+		"&7&oThere's only so many names for magical items."
+	],
+	dependencies: [
+		"e06421be"
+	],
+	tasks: [{
+		uid: "94b33b2f",
+		type: "item",
+		items: [{
+			item: "bloodmagic:component 1 8"
+		}]
+	}]
+}

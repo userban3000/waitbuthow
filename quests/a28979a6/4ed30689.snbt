@@ -1,0 +1,17 @@
+{
+	x: -11.0d,
+	y: 3.0d,
+	text: [
+		"Like the Looking Glass, but easier to use. You can place it down and you don't have to sneak in order to draw constellations."
+	],
+	dependencies: [
+		"695979e2"
+	],
+	tasks: [{
+		uid: "7326c04c",
+		type: "item",
+		items: [{
+			item: "astralsorcery:blockmachine"
+		}]
+	}]
+}

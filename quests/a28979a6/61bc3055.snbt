@@ -1,0 +1,29 @@
+{
+	x: 8.0d,
+	y: 0.0d,
+	text: [
+		"Snares are not the best way to collect Will, they can get pretty expensive and annoying to use.",
+		"",
+		"The Sentient Sword makes mobs always drop Demonic Will (no more snares). The Wills are deposited as usual, in Gems or in your inventory, if the Gem is full.",
+		"",
+		"&cAfter crafting the sword, throw it on the ground and pick it back up again. This makes it stronger. &oWe have absolutely no idea why.",
+		"",
+		"&rThe sword can also be enchanted and enchanting looting on the sword will increase the amount of Will dropped."
+	],
+	dependencies: [
+		"066e73c9"
+	],
+	tasks: [{
+		uid: "9825511f",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "bloodmagic:sentient_sword",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

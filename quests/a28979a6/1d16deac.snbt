@@ -1,0 +1,34 @@
+{
+	x: 16.5d,
+	y: 5.0d,
+	text: [
+		"The Dagger of Sacrifice is used to sacrifice creatures for Life Essence. The amount varies per creature and can be further increased through the use of Runes of Sacrifice.",
+		"",
+		"The Dagger of Sacrifice must be used within about three blocks of the Blood Altar. When used on a valid target, the target will instantly be killed and its Life Essence will be drained into the altar.",
+		"",
+		"The amount of Life Essence varies per creature:",
+		"",
+		"Animals = &4250 LP&f",
+		"Hostile Mobs = &4500 LP&f",
+		"Villagers = &42000 LP&f",
+		"",
+		"Creatures that are considered children cannot be sacrificed and don't add any &4LP&f.",
+		"",
+		"&7&oOf course they don't. Not even evil blood magicians kill children."
+	],
+	dependencies: [
+		"b2cce9a5"
+	],
+	tasks: [{
+		uid: "d0e4715a",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "bloodmagic:dagger_of_sacrifice"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

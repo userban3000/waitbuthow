@@ -1,0 +1,29 @@
+{
+	x: -3.0d,
+	y: 4.0d,
+	text: [
+		"Like the Looking Glass, but with some added functionality.",
+		"",
+		"First off, it will show structures as large colored stars. Sneak and drag a structure marker from the right to mark it, and it will appear in the night sky!",
+		"",
+		"Second, it can be used to show ghost images of the Altar structures you need to build. Shift + right-click any altar and it will show you what to place."
+	],
+	dependencies: [
+		"05ce70a0"
+	],
+	tasks: [{
+		uid: "b97f13d2",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "astralsorcery:itemsextant",
+			tag: {
+				astralsorcery: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

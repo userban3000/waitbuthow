@@ -1,0 +1,27 @@
+{
+	title: "(Self) Sacrifice Runes",
+	x: 16.5d,
+	y: 0.5d,
+	text: [
+		"The Rune of Self Sacrifice increases the amount of &4LP&f you get from stabbing yourself by 10%, additively.",
+		"",
+		"The Rune of Sacrifice increases the amount of &4LP&f you get from killing a mob with the Dagger of Sacrifice."
+	],
+	dependencies: [
+		"b2cce9a5"
+	],
+	tasks: [{
+		uid: "159b2299",
+		type: "item",
+		items: [{
+			item: "bloodmagic:blood_rune 1 4"
+		}]
+	},
+	{
+		uid: "e1725ac6",
+		type: "item",
+		items: [{
+			item: "bloodmagic:blood_rune 1 3"
+		}]
+	}]
+}

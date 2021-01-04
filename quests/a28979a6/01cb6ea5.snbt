@@ -1,0 +1,28 @@
+{
+	x: -23.0d,
+	y: 2.0d,
+	text: [
+		"The Containment Chalice does a few things and can be very useful when paired with tech mods. The Chalice will hold 24B of liquids. This means it will hold Liquid Starlight, water and lava. ",
+		"",
+		"When you stand Chalices next to each other when filled with different liquids. ",
+		"",
+		"The created items will drop between the Chalices, so they have to get manually (or automatically, &owink wink&r) or they'll despawn.",
+		"",
+		"Here are the possible combinations:",
+		"&bWater &f+ &1Starlight &f= Ice",
+		"&6Lava &f+ &1Starlight &f= Sand, Aquamarine Shale",
+		"&bWater &f+ &6Lava &f= Cobblestone, Stone, Obsidian",
+		"",
+		"They can also be placed next to Lightwells to automatically drain them and around your Starlight Infuser, which makes the Infuser take from the Chalices rather than the holes. It will also use less Starlight."
+	],
+	dependencies: [
+		"7a98f9ba"
+	],
+	tasks: [{
+		uid: "16c56494",
+		type: "item",
+		items: [{
+			item: "astralsorcery:blockchalice"
+		}]
+	}]
+}

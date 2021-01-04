@@ -1,0 +1,27 @@
+{
+	x: -16.0d,
+	y: -2.0d,
+	text: [
+		"The Resplendent Prism is a Bauble that sits in the Amulet slot.",
+		"",
+		"When you put the Prism into your inventory, 3 enchantments will be randomly rolled, which will be applied to items in your main and off hand."
+	],
+	dependencies: [
+		"cfc3e96d"
+	],
+	tasks: [{
+		uid: "609d20bb",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "astralsorcery:itemenchantmentamulet",
+			tag: {
+				astralsorcery: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

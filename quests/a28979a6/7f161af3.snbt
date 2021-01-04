@@ -1,0 +1,25 @@
+{
+	x: -5.0d,
+	y: 5.0d,
+	text: [
+		"When right clicked, it will create a dark patch which will eventually disappear, leaving behind a group of mobs.",
+		"",
+		"If the mobs inside are somehow continuously removed (killed or pushed out) more mobs will spawn inside the smoke!"
+	],
+	dependencies: [
+		"5a1924a2"
+	],
+	tasks: [{
+		uid: "ae9882e5",
+		type: "item",
+		items: [{
+			item: "astralsorcery:itemusabledust 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "78fe5d81",
+		type: "item",
+		item: "astralsorcery:itemusabledust 1 1",
+		count: 4
+	}]
+}

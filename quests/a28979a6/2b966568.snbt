@@ -1,0 +1,61 @@
+{
+	title: "&cFu&ell &aRa&9in&5bow",
+	x: -15.0d,
+	y: -3.0d,
+	text: [
+		"&cGott&ea cat&ach t&9hem a&5ll!"
+	],
+	dependencies: [
+		"63dd043d"
+	],
+	hide: true,
+	tasks: [{
+		uid: "0da0095d",
+		type: "item",
+		items: [{
+			item: "astralsorcery:itemcoloredlens"
+		}]
+	},
+	{
+		uid: "39c09dc6",
+		type: "item",
+		items: [{
+			item: "astralsorcery:itemcoloredlens 1 1"
+		}]
+	},
+	{
+		uid: "013af5f6",
+		type: "item",
+		items: [{
+			item: "astralsorcery:itemcoloredlens 1 2"
+		}]
+	},
+	{
+		uid: "a03d90a9",
+		type: "item",
+		items: [{
+			item: "astralsorcery:itemcoloredlens 1 3"
+		}]
+	},
+	{
+		uid: "4be390cb",
+		type: "item",
+		items: [{
+			item: "astralsorcery:itemcoloredlens 1 4"
+		}]
+	},
+	{
+		uid: "da83eb69",
+		type: "item",
+		items: [{
+			item: "astralsorcery:itemcoloredlens 1 5"
+		}]
+	},
+	{
+		uid: "6251fff2",
+		type: "item",
+		items: [{
+			item: "astralsorcery:itemcoloredlens 1 6"
+		}]
+	}]
+}

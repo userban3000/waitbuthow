@@ -1,0 +1,23 @@
+{
+	title: "Celestial Teleportation",
+	x: -12.0d,
+	y: 2.0d,
+	text: [
+		"Ever wanted to take a shortcut through the stars?",
+		"",
+		"Well that's exactly what Celestial Gateways do. Place them down (and their correspondent structure) and you'll see other Gateways around. Sneak or right click to teleport!",
+		"",
+		"Renaming a Gateway in the Anvil will also rename it in the teleportation screen."
+	],
+	dependencies: [
+		"695979e2"
+	],
+	tasks: [{
+		uid: "6b52a72a",
+		type: "item",
+		items: [{
+			item: "astralsorcery:blockcelestialgateway"
+		}],
+		count: 2L
+	}]
+}
